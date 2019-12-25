@@ -1,0 +1,893 @@
+\chapter{Исходные данные}
+
+Рассматривается участок прокатного стана, на котором осуществляется прокатка полосы в 4 прохода по заданной системе калибровки. Известен материал, температура переднего конца полосы, форма и размеры сечения на входе в первый калибр рассматриваемого участка и размеры сечения после последнего калибра, а также размеры исходной заготовки перед задачей в стан. Задан тип клетей, скорость вращения и диаметр валков, а также длина обводного аппарата линейного стана.
+
+При проведении расчётов принять следующие допущения:
+
+\begin{GostEnumerate}
+\item  Расчет температурного режима вести по переднему концу полосы;
+
+\item  Потерями тепла от контакта с валками пренебречь;
+
+\item  Прокатка в непрерывной группе ведётся без натяжения;
+
+\item  В конструкции линейного стана применяются обводные аппараты;
+
+\item  Длина раскатных полей у реверсивной клети не более 30 м с каждой стороны;
+
+\item  Расстояние между клетями в непрерывной групп принять равным 3 м.
+
+\item  Длину пути полосы по обводному аппарату принять равной 4 м.
+
+\end{GostEnumerate}
+
+Требуется:
+\begin{GostEnumerate}
+\item  рассчитать формоизменение металла при прокатке за 4 прохода: определить коэффициенты вытяжки и обжатия, абсолютные обжатия и степень деформации (результат представить в виде диаграмм);
+
+\item  рассчитать основные размеры калибров и их элементов, достаточные для их построения (результат представить в виде таблицы);
+
+\item  рассчитать скоростной режим прокатки: определить скорости входа и выхода полосы из валков, скорость деформации, длину полосы на всех рассматриваемых участках, машинное время (результат представить в виде таблиц);
+
+\item  рассчитать температурный режим прокатки: определить сопротивление деформации по проходам, а также изменение температуры полосы на всех рассматриваемых участках (результаты представить в виде таблиц или диаграмм);
+
+\item  рассчитать среднее контактное давление, силу и момента прокатки (результаты расчета представить в виде диаграмм). Также в виде таблицы представить результаты расчета коэффициентов, используемых для расчета среднего контактного давления.
+
+\end{GostEnumerate}
+
+Исходная заготовка имеет квадратное сечение. Сторона $ c = 90 $ мм. Длина $ l = 1.5 $ м. Начальное сечение: круг с диаметром $38$ мм. Конечное сечение: квадрат со стороной $C_0=20 $ мм. Схема деформации: овал---круг---овал---диагональный квадрат. Тип стана~--- линейная группа. Материал~--- 12Х18Н9Т. Диаметр валков~--- 300 мм. Скорость вращения валков~--- 230 об/мин. Температура переднего края полосы~--- 1020$^{\circ}C$.
+
+\chapter{Расчёт формоизменения полосы}
+
+Схема деформации представлена на рис. \ref{fig:drawing}. Так как расчёт будет вестись с конца, то принята обратная нумерация калибров. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=16cm,natwidth=610,natheight=642]{pic/drawing.png}
+	\caption{Схема деформации полосы}
+	\label{fig:drawing}
+\end{figure}
+
+\section{Расчёт параметров конечного сечения калибра}
+
+Так как полоса катается при значительной температуре, то необходимо учитывать тепловое расширение металла. Тогда размер конечного профиля с учётом нагрева:
+\[ C \approx 1.014 C_0  = 1.014 \cdot 20 = 20.28 \;  {мм} \]
+Тогда площадь чистовой заготовки:
+\[ F_{ {к}} = C^2 = 411.278 \;  {мм}^2 \]
+Размеры калибра расчитываются по формулам, представленным в \cite{mainbook}
+\[ H_1' = B_{ {к}} = \sqrt{2} C_1 = \sqrt{2} \cdot 20.28 = 28.68 \;  {мм} \]
+\[ r \cong (0.1 \ldots 0.2) \cdot C_1 = (0.1 \ldots 0.2) \cdot 20.28 = 2.028 \ldots 4.056 \approx 3 \;  {мм} \]
+\[ H_1 = \sqrt{2} C_1  - 0.83 \cdot r = \sqrt{2} \cdot 20.28 - 0.83 \cdot 3 = 26.190 \;  {мм} \]
+\begin{equation}\label{b:pr:kvadrata}
+ B_{ {пр}} = B_{ {к}} - S 
+\end{equation}
+Где $ S $~--- величина межвалкового зазора, определяется согласно рекоммендациям \cite{mainbook}. Учитывая размеры и заданный тип стана:
+\[ S = (0.005\ldots0.008) D = (0.005 \ldots 0.008) \cdot 300 = (1.5\ldots2.4) \approx 2 \;  {мм} \]
+Тогда из уравнения \ref{b:pr:kvadrata}:
+\[ B_{ {вр}} = 28.68 - 2 = 26.68 \;  {мм} \]
+\[ r_1 \cong (0.10 \ldots 0.15)H_1' = (0.10 \ldots 0.15) \cdot 28.68 = (2.868 \ldots 4.302) = 3 \;  {мм} \]
+\[ \Pi \approx 2 H_1 \sqrt{2} = 2 \cdot 26.190 \cdot \sqrt{2} = 74.077 \;  {мм} \]
+Глубина вреза в валки:
+\[ H_{ {вр}} = \dfrac{H_1' - s}{2} = \dfrac{28.68 - 2}{2} = 13.34 \;  {мм} \]
+
+\section{Расчёт формоизменения полосы в проходах 1 и 2}
+
+Площадь исходного сечения:
+\[ F_{ {исх}} = \dfrac{\pi d_{ {к}}^2}{4} = \dfrac{3.1415 \cdot 38^2}{4} = 1134.082 \;  {мм}^2 \]
+
+Периметр исходного сечения:
+\[ \Pi_{ {исх}} = \pi d = 3.1415 \cdot 38 = 119.377 \]
+
+Тогда суммарный коэффициент вытяжки:
+\[ \lambda_{\Sigma} = \dfrac{F_{ {исх}}}{F_{ {к}}} =\dfrac{1134.082}{411.278} = 2.757 \]
+
+Средний коэффициент вытяжки за один проход:
+\[ \lambda_{ {ср}} = \sqrt[4]{\lambda_{\Sigma}} = \sqrt[4]{2.757} = 1.289 \]
+
+Рассмотрим последние 2 прохода. Прокатка в них осуществляется по схеме круг--овал--диагональный квадрат. Принимая коэффициент вытяжки примерно одинаковым в каждом проходе, определим суммарный коэффициент вытяжки за 2 прохода:
+\[ \lambda_{1-2} = \lambda_{ {ср}}^2 = 1.289^2 = 1.662 \]
+
+Приведённый диаметр валков $ A_1: $
+\[ A_1 = \dfrac{D - H_1}{H_1} = \dfrac{300 - 26.19}{26.19} = 10.455 \]
+
+Воспользуемся номограммой П15(рис. \ref{fig:nomp15}) в \cite{mainbook} и определим отношение сторон $ a_2 $ овального калибра, которое будет равно $ a_2 = 1.7 $. Далее, воспользовавшись номограммой П13(рис. \ref{fig:nomp13}) определим коэффициент обжатия и фактический коэффициент вытяжки в квадратном калибре. Получим:
+\[ \dfrac{1}{\eta_1} = 1.25; \; \lambda_1 = 1.23 \]
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=16cm,natwidth=610,natheight=642]{pic/NomP15.png}
+	\caption{Номограмма П15 для определения суммарного коэффициента вытяжки $ \lambda_{\Sigma} $ при прокатке по схеме круг--овал--квадрат}
+	\label{fig:nomp15}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=16cm,natwidth=610,natheight=642]{pic/NomP13.png}
+	\caption{Номограмма П13}
+	\label{fig:nomp13}
+\end{figure}
+
+Тогда коэффициент вытяжки в овальном калибре будет равен:
+\[ \lambda_2 = \dfrac{\lambda_{1-2}}{\lambda_1} = \dfrac{1.662}{1.23} = 1.351 \]
+
+Отсюда площадь полосы на входе в чистовой калибр:
+\[ F_2 = F_1\cdot \lambda_1 = 411.278 \cdot 1.23 = 505.872 \;  {мм}^2 \]
+
+%Отсюда высота овальной полосы на входе в чистовой калибр составит:
+%\[ H_2 = H_1 \cdot \dfrac{1}{\eta} = 26.190 \cdot 1.25 = 32.738 \;  {мм} \]
+
+\[ B_2 = \dfrac{1}{\eta_1} \cdot H_1 = 1.25 \cdot 26.190 = 32.738 \;  {мм} \]
+
+Степень заполнения овального калибра примем $ \delta_2 = 0.85 $, отношение осей $ a_{ {к}2} $ примем равным отношению осей полосы $ a_{ {к}2} = 1.7 $
+
+Тогда, согласно \cite{mainbook} высота овальной полосы составит:
+\[ H_2 = \sqrt{\dfrac{F_2}{0.6(2.07 - \delta_2 ) (a_{ {к}} \delta_2 + 0.66 \delta_2 - 0.43)}} \]
+\[ H_2 = \sqrt{\dfrac{505.872}{0.6(2.07 - 0.85)(1.7 \cdot 0.85 + 0.66 \cdot 0.85 - 0.43)}} = 20.94 \;  {мм}  \]
+
+Характеристики калибра расчитываются по формулам:
+\begin{eqnarray}
+R = H_2 \dfrac{(1 + a_{ {к}})^2}{4}; \label{eq:r:oval} \\
+B_{ {к}} = H_2 \sqrt{\dfrac{4R}{H_2} - 1}; \label{eq:b:k:oval} \\
+B_{ {вр}} = (H_2 - S) \sqrt{\dfrac{4R}{H_2 - S} - 1}; \label{eq:b:vr:oval} \\
+r_1 = (0.10\ldots0.40) \cdot H_2; \label{eq:r:1:oval} \\
+\Pi \cong 2 \sqrt{B_1^2 + \dfrac{4}{3} H_2^2}; \label{eq:pi:oval} 
+\end{eqnarray}
+
+\[ R = 20.94 \cdot \dfrac{\left(1 + 1.7\right)^2}{4} = 38.163 \;  {мм} \]
+\[ B_{ {к}} = 20.94 \cdot \sqrt{\dfrac{4 \cdot 38.163}{20.94} - 1} = 52.517 \;  {мм} \]
+\[ B_{ {вр}} = (20.94 - 2) \cdot \sqrt{\dfrac{4 \cdot 38.163}{20.94 - 2} - 1} = 50.324 \;  {мм} \]
+\[ r_1 = (0.10\ldots0.40) \cdot 20.94 = (2.094\ldots8.376)\approx 5 \;  {мм} \]
+\[ \Pi \cong 2 \cdot \sqrt{52.517^2 + \dfrac{4}{3} \cdot 20.94^2} = 115.632 \;  {мм} \]
+
+\section{Расчёт формоизменения полосы в калибрах 3 и 4}
+
+Площадь круглой полосы, выходящей из калибра №3, будет равна:
+\[ F_3 = F_1 \cdot \lambda_{1-2} = 411.278 \cdot 1.662 = 683.544 \;  {мм}^2 \]
+
+Примем $ \delta_3 = 0.85 $. Тогда:
+\[ H_3 = \sqrt{\dfrac{F_3}{0.785 - 0.667(1 - \delta_3)\sqrt{1 - \delta_3^2}}} = \]
+\[ = \sqrt{\dfrac{683.544}{0.785 - 0.667 \cdot(1 - 0.85)\sqrt{1-0.85^2}}}  = 30.552 \;  {мм} \]
+
+Характеристики калибра расчитываются по формулам:
+\begin{eqnarray}
+B_{ {к}} = \dfrac{D}{\cos\left( \gamma \right)};\label{eq:b:k:krug} \\
+B_{ {вр}} = B_{ {к}} - S \tan\left( \gamma \right);\label{eq:b:vr:krug} \\
+r_1 (0.08 \ldots 0.10) D;\label{eq:r:1:krug} \\
+\Pi = \pi D;\label{eq:pi:krug} \\
+H_{ {вр}} = \dfrac{H_1 - S}{2}\label{eq:h:vr:krug}
+\end{eqnarray}
+
+Где $ \gamma $~--- угол развала калибра. Так как диаметр круга $ d = 30.552 $, то:
+\[ \gamma= 21^{\circ}50' \]
+Тогда из уравнений \ref{eq:b:k:krug}, \ref{eq:b:vr:krug}, \ref{eq:r:1:krug}, \ref{eq:pi:krug}, \ref{eq:h:vr:krug}:
+\[ B_{ {к}} = \dfrac{30.552}{\cos\left(21^{\circ}50'\right)} = 32.913 \;  {мм} \]
+\[ B_{ {вр}} = 32.913 - 2 \cdot \tan\left(21^{\circ}50'\right) = 32.112 \;  {мм} \]
+\[ r_1 = (0.08\ldots0.10) = 2.444\ldots3.055 \approx 3 \;  {мм} \]
+\[ \Pi = 3.1415 \cdot 30.552 = 95.979 \;  {мм} \]
+\[ H_{ {вр}} = \dfrac{30.552 - 2}{2} = 14.276 \;  {мм} \]
+
+Коэффициент обжатия в проходе №2 равен:
+\[ \dfrac{1}{\eta_2} = \dfrac{30.552}{20.94} = 1.459 \]
+
+Рассмотрим оставшиеся 2 прохода. Прокатка в них ведётся по схеме круг~---овал~---круг. Суммарный коэффициент вытяжки в проходах № 3 и 4 равен коэффициенту вытяжки в проходах 1 и 2:
+\[ \lambda_{3-4} =\lambda_{1-2} = 1.662 \]
+
+Приведённый диаметр валков $ A_3 $:
+\[ A_3 = \dfrac{D - H_3}{H_3} = \dfrac{300 - 30.552}{30.552} = 8.819 \]
+
+Воспользуемся номограммой П24(рис. \ref{fig:nomp24}) и определим отношение сторон овального калибра $ a_4 = 1.7 $. Далее, воспользовавшись номограммой П25 (рис. \ref{fig:nomp25}) и определим коэффициент обжатия и коэффициент вытяжки в овальном калибре. Получим:
+\[ \lambda_3 = 1.35; \; \dfrac{1}{\eta_3} = 1.48 \]
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=16cm,natwidth=610,natheight=642]{pic/NomP24.png}
+	\caption{Номограмма П24 для определения суммарного коэффициента вытяжки $ \lambda_{\Sigma} $ при прокатке по схеме круг--овал--круг}
+	\label{fig:nomp24}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=16cm,natwidth=610,natheight=642]{pic/NomP25.png}
+	\caption{Номограмма П25 для определения коэффициента обжатия $ \frac{1}{\eta_1} $ и коэффициента вытяжки $ \lambda_1 $ при прокатке овального раската~--- в круглом калибре}
+	\label{fig:nomp25}
+\end{figure}
+
+Отсюда коэффициент обжатия в круглом калибре:
+\[ \lambda_4 = \dfrac{\lambda_{3-4}}{\lambda_3} = \dfrac{1.662}{1.35} = 1.231 \]
+
+Площадь полосы на выходе из калибра №4:
+\[ F_4 = F_3 \cdot \lambda_3 = 683.544 \cdot 1.35 = 922.784  \]
+
+\[ B_4 = H_3 \cdot \dfrac{1}{\eta_3} = 30.552 \cdot 1.48 = 45.217 \;  {мм} \]
+
+Примем степень заполнения калибра $ \delta_4 = 0.85 $, отношение сторон $ a_{ {к} 4} = 1.7 $. Тогда:
+
+Высота полосы на выходе из калибра №4:
+\[ H_4 = \sqrt{\dfrac{F_4}{0.6(2.07 - \delta_4 ) (a_{ {к}} \delta_4 + 0.66 \delta_4 - 0.43)}} \]
+\[ H_4 = \sqrt{\dfrac{922.784}{0.6(2.07 - 0.85)(1.7 \cdot 0.85 + 0.66 \cdot 0.85 - 0.43)}} = 28.282 \;  {мм}  \]
+
+Коэффициент обжатия в калибре №4:
+\[ \dfrac{1}{\eta_4} = \dfrac{d_0}{H_4} = \dfrac{38}{28.282}= 1.343 \]
+
+Параметры калибра расчитываются по формулам \ref{eq:r:oval},  \ref{eq:b:k:oval}, \ref{eq:b:vr:oval}, \ref{eq:r:1:oval}, \ref{eq:pi:oval}:
+\[ R = 28.282 \cdot \dfrac{\left(1 + 1.7\right)^2}{4} = 51.544 \;  {мм} \]
+\[ B_{ {к}} = 28.282 \cdot \sqrt{\dfrac{4 \cdot 51.544}{28.282} - 1} = 70.939 \;  {мм} \]
+\[ B_{ {вр}} = (28.282 - 2) \cdot \sqrt{\dfrac{4 \cdot 51.544}{28.282 - 2} - 1} = 68.760 \;  {мм} \]
+\[ r_1 = (0.10\ldots0.40) \cdot 28.282 = 2.828\ldots11.313 = 8 \;  {мм} \]
+\[ \Pi \cong 2 \sqrt{70.939^2 + \dfrac{4}{3} \cdot 28.282^2} = 156.190 \;  {мм} \]
+
+\section{Конечные размеры калибров}
+
+Результаты расчёта размеров калибров представлены в табл. \ref{tab:razmer:kalibrov}.
+
+Коэффициенты вытяжки и обжатия по проходам представлены на рис. \ref{fig:lambdaeta}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth,natwidth=610,natheight=642]{pic/LambdaEta.png}
+	\caption{Значения коэффициентов вытяжки и обжатия по проходам}
+	\label{fig:lambdaeta}
+\end{figure}
+
+
+\newpage
+\begin{landscape}
+
+
+%\begin{minipage}{26cm}
+
+\begin{table}[h!]
+\caption{Формоизменение полосы и размеры калибров}
+\begin{tabular}{|c|c|c|c|c|c|}
+	\hline 
+	Параметр & Исходное сечение & Калибр №4 & Калибр №3 & Калибр №2 & Калибр №1 \\ 
+	\hline 
+	Форма прохода & Круг & Овал & Круг & Овал & Диагональный квадрат \\ 
+	\hline 
+	$H_1$, мм & 38 & 28.282 & 30.552 & 20.94 & 26.190 \\ 
+	\hline 
+	$H_1'$, мм & - & - & - & - & 28.68 \\ 
+	\hline 
+	$B_1$, мм & 38 & 45.217 & 30.552 & 32.738 & 26.190 \\ 
+	\hline 
+	$B_{ {к}}$, мм & - & 70.939 & 32.913 & 52.517 & 28.68 \\ 
+	\hline 
+	$B_{ {вр}}$, мм & - & 68.760 & 32.112 & 50.324 & 26.68 \\ 
+	\hline 
+	$r_1$, мм & - & 8 & 3 & 5 & 3 \\ 
+	\hline 
+	$r$, мм & - & 3 &  & - & 3 \\ 
+	\hline 
+	$H_{ {вр}}$, мм & - & - & 14.276 & - & 13.34 \\ 
+	\hline 
+	$R$, мм & - & 51.544 & - & 38.163 & -- \\ 
+	\hline 
+	$\Pi$, мм & - & 156.190 & 95.979 & 115.632 & 74.077 \\ 
+	\hline 
+	$\frac{1}{\eta}$ & - & 1.343 & 1.48 & 1.459 & 1.25 \\ 
+	\hline 
+	$\lambda$ & - & 1.231 & 1.35 & 1.351 & 1.23 \\ 
+	\hline 
+\end{tabular}
+\label{tab:razmer:kalibrov}
+\end{table}
+%\end{minipage}
+\end{landscape}
+
+\chapter{Расчёт энергосиловых параметров}
+
+\section{Формулы для расчёта энергосиловых параметров}
+
+Длина исходной заготовки:
+\[ l_0 = 1.5 \cdot \dfrac{90^2}{\pi \dfrac{38^2}{4}} = 10.713 \;  {м} \]
+
+Приведённая высота полосы расчитывается по формуле:
+\begin{equation}
+\triangle h^{ {пр}} = \dfrac{F_i}{B_i}
+\end{equation} 
+
+Абсолютное обжатие расчитывается по формуле:
+\begin{equation}\label{eq:abs:obzh}
+\triangle h^{ {пр}} = h_0^{ {пр}} - h_1^{ {пр}}
+\end{equation}
+
+Относительная деформация расчитывается по формуле:
+\begin{equation}\label{eq:otn:def}
+\varepsilon = \dfrac{\triangle h^{ {пр}}}{h_0^{ {пр}}}
+\end{equation}
+
+Катающий радиус валков расчитываются по формуле:
+\[ R_{ {кат} i} =  \dfrac{D - \dfrac{F_i}{B_i}}{2} \]
+
+Длина дуги контакта расчитывается по формуле:
+\begin{equation}\label{eq:dlina:dugi}
+l = \sqrt{R_{ {кат}} \triangle h^{ {пр}}}
+\end{equation}
+
+При прокатке на линейном стане скорость выхода полосы из калибра определяется скоростью вращения валков. Скорость входа полосы определяется коэффициентом вытяжки(опережением и отставанием пренебрегаем):
+\[ v_{ {вых}} = \dfrac{\pi D_{ {к}i} n}{60} \]
+\[ v_{ {вх} i} = \dfrac{v_{ {вых} i}}{\lambda_i} \]
+
+Скорость деформации расчитывается по формуле:
+\begin{equation}\label{eq:u}
+u = \dfrac{v \cdot \varepsilon \cdot 1000}{l}
+\end{equation}
+
+Сопротивление деформации методом термомеханических коэффициентов:
+\begin{equation}
+\sigma_{ {ф}} = A_1A_2A_3 \sigma_{ {од}} e^{-m_1t} \varepsilon^{m_2} u^{m3}
+\end{equation}
+
+Для стали 12Х18Н9Т:
+
+\[ A_1 A_2 A_3 \sigma_{ {од}} = 3250 \;  {МПа}; \; m_1 = 0.0028; \; m_2 = 0.28; \; m_3 = 0.087 \]
+
+Коэффицент трения по формуле Экелунда с поправками Б. П. Бахтинова и М. М. Штернова:
+\begin{equation}
+\mu_{ {уст}} = 0.6 k_1 k_2 k_3 (1.05 - 0.0005 T)
+\end{equation}
+
+Так как материал валков --- чугун, то \[ k_1 = 0.8 \]
+%\[ v > 3 \Rightarrow k_2 = 1.53 v^{-0.467} \]
+\[ k_2 = \begin{cases}
+1, & v \leqslant 3 \\
+1.53 v^{-0.467}, & v > 3
+\end{cases} \]
+Для стали 12Х18Н9Т \[ k_3 = 1.47 \]
+
+%Для определения уширения воспользуемся формулой Гришкова:
+%\begin{equation}
+%\triangle b = \dfrac{1}{2} \left( l - \dfrac{\triangle h^{ {пр}}}{2 \mu_{ {уст}}}\right) \ln\left(\dfrac{h_0^{ {пр}}}{h_1^{ {пр}}}\right)
+%\end{equation}
+
+Уширение расчитывается по фомуле:
+\begin{equation}
+\triangle B = B_1 - B_0
+\end{equation}
+
+Среднее контактное давление определяется по формуле:
+\begin{equation}
+p_{ {ср}} = \gamma n_{\sigma}' n_{\sigma}'' n_{\sigma}''' n_{ {в}} n_{ {к}} \sigma_{ {ф}}
+\end{equation}
+
+Где:
+\[ \gamma = \begin{cases}
+1.155 &, \dfrac{b_{ {ср}}}{h_{ {ср}}} > \dfrac{0.465}{\mu_{ {уст}}} \\
+1 + \dfrac{\mu_{ {уст}}}{3} \dfrac{b_{ {ср}}}{h_{ {ср}}} &, \dfrac{b_{ {ср}}}{h_{ {ср}}} < \dfrac{0.465}{\mu_{ {уст}}}
+\end{cases}
+\]
+
+\[n_{\sigma}' = \begin{cases}
+\vspace{2ex}
+1 + \dfrac{l}{4 h_{ {ср}}} &, \dfrac{l}{h_{ {ср}}} > 4\\
+\vspace{2ex}
+\dfrac{2 h_{ {н}}}{\triangle h \delta} \left[ \left( \dfrac{h_{ {н}}}{h_{ {1}}^{ {пр}}} \right)^{\delta} - 1\right] &, 2 < \dfrac{l}{h_{ {ср}}} < 4\\
+1 + \dfrac{l}{6 h_{ {ср}}}&, 1 < \dfrac{l}{h_{ {ср}}} < 2
+\end{cases}
+\]
+При этом:
+\[ \dfrac{h_{ {н}}}{h_1^{ {пр}}} = \left( \dfrac{1 + \sqrt{1 + (\delta^2 - 1) \cdot \left( \dfrac{h_0^{ {пр}}}{h_1^{ {пр}}} \right)^{\delta}}}{\delta + 1} \right)^{\frac{1}{\delta}}
+\]
+
+\[ \delta = \dfrac{2 \mu_{ {уст}} l}{\triangle h^{ {пр}}} \]
+
+\[ n_{\sigma}'' = \begin{cases}
+1 &, \dfrac{l}{h_{ {ср}}} > 1\\
+\left( \dfrac{l}{h_{ {ср}}} \right)^{-0.4} &, \dfrac{l}{h_{ {ср}}} < 1
+\end{cases}
+\]
+
+\[ n_{\sigma}''' = 1,  {так как натяжение отсутствует} \]
+
+\[ n_{ {в}} = \dfrac{1 + \dfrac{3 b_{ {ср}} - l}{6 b_{ {ср}}} \cdot \mu \frac{l}{h_{ {ср}}}}{1 + \dfrac{\mu}{2} \frac{l}{h_{ {ср}}}}
+\]
+
+\[ n_{ {к}} = \dfrac{1.155 \left( 1 + \dfrac{2 \mu_{ {уст}} \alpha l}{3 h_{ {ср}} \pi} \right)}{\gamma \left( 1 + 
+	\dfrac{\mu}{3} \dfrac{l}{h_{ {ср}}} \right)} \]
+
+Тогда усилия при прокатке:
+
+\begin{equation}
+P = p_{ {ср}} F_{ {к}}
+\end{equation}
+
+Где \[ F_{ {к}} = b_{ {ср}} l \]
+
+Момент при прокатке определяется следующим выражением:
+\begin{equation}
+M = 2 P \psi l
+\end{equation}
+
+Где \( \psi \) --- коэффициент плеча, 
+\begin{equation}
+\psi = \begin{cases}
+\vspace{2ex}
+\dfrac{1}{2 - \varepsilon} \left( 1 - \varepsilon \left( \dfrac{l^m}{l^m - 1} - \dfrac{1}{m} \right) \right), & m \geqslant 0.5\\
+
+\dfrac{1}{2} \cdot \dfrac{1}{1 - \frac{\varepsilon}{2}} \left( 1 - \varepsilon \cdot \dfrac{1 + m}{2 + m} \right), & m < 0.5
+\end{cases}
+\end{equation}
+
+При этом:
+
+\begin{equation}
+m = \dfrac{\mu_{ {уст}} l}{h_{ {ср}}^{ {пр}}}
+\end{equation}
+
+При горячей прокатке в металле практически нет деформационного упрочнения из-за рекристаллизации, поэтому вся работа деформации превращается в тепло.
+Температура полосы после клети определяется следующим образом:
+\begin{equation}
+T_{ {вых}} = T_{ {вх}}^i + \triangle T_{ {д}}^i - \triangle T_{ {в}}^i - \triangle T_{ {л}}^i - \triangle T_{ {к}}^i
+\end{equation}
+
+Где \( \triangle T_{ {д}}^i \) --- повышение температуры полосы за счет пластической деформации,
+\begin{equation}
+\triangle T_{ {д}} = \dfrac{p_{ {ср}} \cdot \ln\left( \dfrac{h_{0}}{h_1} \right) \eta}{c \rho}
+\end{equation}
+
+Здесь $c = 548 \dfrac{ {Дж}}{ {кг} \cdot ^{\circ}C} $~--- теплоёмкость стали, $ \rho = 7900 \dfrac{ {кг}}{ {м}^3}$~---
+плотность стали при заданной температуре, $\eta = 0.8$~--- потери тепла в окружающую среду.
+
+$\triangle T_{ {в}} $~--- охлаждение полосы за счёт контакта с валками,
+\begin{equation}
+\triangle T_{ {в}} = \dfrac{4.87}{h_0 + h_1} \left( T_{ {вх}} - T_{ {цв}} \right) \sqrt{\dfrac{2 l h_0}{10^3 \left(h_0 + h_1 \right) v}}
+\end{equation}
+
+Здесь $T_{ {цв}}$~--- температура центра валков. Примем $T_{ {цв}} = 50^{\circ}C$.
+
+$\triangle T_{ {л}}$~--- охлаждение полосы за счет лучеиспускания при перемещении ее между клетям,
+\begin{equation}
+\triangle T_{ {л}} = k_{ {ст}} \dfrac{T_i^4}{h_1^{ {пр}}} \tau_{ {мк}} \cdot 10^{-12}
+\end{equation}
+
+Здесь $k_{ {ст}} = 17.5$~--- коэффициент, зависящий от марки сталей, $T_{i} = T_{ {вх}} + \triangle T_{ {д}} - \triangle T_{ {в}}$~---
+Температура полосы непосредственно на выходе из валков после $i$--го прохода, $ ^{\circ}K $.
+
+$\tau_{ {мк}}$~--- время прохождения полосы в межклетевом промежутке. 
+ 
+Длина обводного аппарата по условию задания 4 м. После выхода из клети полоса движется до следующей клети по обводному аппарату со скоростью выхода из калибров. Так как скорость входа полосы в следующую клеть меньше, чем скорость входящей полосы, то обводной аппарат раскрывается, и начинает формироваться петля. После раскрытия обводного аппарата оставшаяся часть полосы входит в следующую клеть со скоростью входа, определяемой частотой вращения валков и коэффициентом вытяжки в калибре.
+ 
+Время движения по обводному аппарату составит:
+ \[ \tau_{OA} = \dfrac{l_{OA}}{v_{ {вых}}} \]
+ 
+Время нахождения оставшейся части полосы между клетями:
+\[ \tau_{ {хв} i} = \dfrac{l_i - l_{OA}}{v_{ {вх} i - 1}} \] 
+
+$\triangle T_{ {к}}$~--- охлаждение полосы за счёт конвекции, 
+\begin{equation}
+\triangle T_{ {к}} = 0.03 \triangle T_{ {л}}
+\end{equation}
+
+Расчёт будем вести в программе tplsp.py. Текст программы приведён в приложениях А, Б.
+
+\section{Исходные данные для расчёта в программе}
+\[ F_0 = 1134.082; \; B_0 = 38 \]
+\[ F_4 = 922.784; \; B_4' = 45.217; \; B_4 = 28.282 \]
+\[ F_3 = 683.544; \; B_3 = 30.552 \]
+\[ F_2 = 505.872 \; B_2' = 32.738; \; B_2 = 20.94 \]
+\[ F_1 = 411.278 \; B_1 = 26.190 \]
+\[ D_{ {в}} = 300 \]
+\[ T_0 = 1020 \]
+\[ l_{ {мк}} = 4000 \]
+\[ n = 230 \]
+\[ \lambda_4 = 1.231; \; \lambda_3 = 1.35; \; \lambda_2 = 1.351; \; \lambda_1 = 1.23 \]
+\[ l_0 = 10713 \]
+
+\section{Результаты расчёта энергосиловых параметров}
+
+Результаты расчёта представлены в табл. \ref{tab:rez:rasch}.
+
+\begin{table}[h!]
+\caption{Результаты расчёта программы tplsp.py}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Параметр & Калибр № 4 & Калибр № 3 & Калибр №2 & Калибр №1\\
+\hline
+$\triangle h$, мм & 9.436 & 10.255 & 6.921 & 8.455\\
+\hline
+$\varepsilon$ & 0.316 & 0.314 & 0.309 & 0.35\\
+\hline
+$l$, мм & 36.32 & 37.729 & 31.38 & 34.667\\
+\hline
+$u$, $\frac{1}{c}$ & 29.311 & 27.851 & 33.78 & 34.562\\
+\hline
+$\sigma_{ {ф}}$, МПа & 181.616 & 183.925 & 190.953 & 210.884\\
+\hline
+$\mu_{ {уст}}$ & 0.331 & 0.334 & 0.333 & 0.34\\
+\hline
+$\triangle b$, мм & 7.217 & 2.27 & 2.186 & 5.25\\
+\hline
+$b_{ {ср}}$, мм & 41.608 & 29.417 & 31.645 & 23.565\\
+\hline
+$p_{ {ср}}$, МПа & 231.272 & 226.629 & 244.057 & 259.438\\
+\hline
+$P_{ {пр}}$, кН & 349.507 & 251.532 & 242.35 & 211.942\\
+\hline
+$M_{ {пр}}$, кН$\cdot$мм & 8.096 & 8.253 & 10.842 & 13.008\\
+\hline
+$l_{ {вых}}$, мм & 13187.703 & 17803.399 & 24052.392 & 29584.442\\
+\hline
+$T_{ {вых}}$, $^{\circ}C$ & 1013.3 & 1004.318 & 981.907 & 964.71\\
+\hline
+$\triangle T_{ {д}}$, $^{\circ}C$ & 16.243 & 15.801 & 16.692 & 20.65\\
+\hline
+$\triangle T_{ {в}}$, $^{\circ}C$ & 10.641 & 9.87 & 12.788 & 12.613\\
+\hline
+$\triangle T_{ {л}}$, $^{\circ}C$ & 11.944 & 14.479 & 25.548 & 24.499\\
+\hline
+$\triangle T_{ {к}}$, $^{\circ}C$ & 0.358 & 0.434 & 0.766 & 0.735\\
+\hline
+$\tau$ & 4.898 & 6.639 & 8.372 & 8.641\\
+\hline
+$v_{ {вх}}$ & 2.735 & 2.477 & 2.536 & 2.783\\
+\hline
+$v_{ {вых}}$ & 3.367 & 3.343 & 3.427 & 3.424\\
+\hline
+\end{tabular}
+\label{tab:rez:rasch}
+\end{table}
+
+Гистограмма абсолютного обжатия полосы представлена на рис. \ref{fig:deltah}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth,natwidth=610,natheight=642]{pic/delta_h.png}
+	\caption{Абсолютное обжатие полосы по проходам}
+	\label{fig:deltah}
+\end{figure}
+
+Гистограмма относительной деформации представлена на рис. \ref{fig:epsilon}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth,natwidth=610,natheight=642]{pic/epsilon.png}
+	\caption{Относительная деформация по проходам}
+	\label{fig:epsilon}
+\end{figure}
+
+Гистограмма среднего контактного давления по проходам представлена на рис. \ref{fig:psr}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth,natwidth=610,natheight=642]{pic/p_sr.png}
+	\caption{Среднее контактное давление по проходам}
+	\label{fig:psr}
+\end{figure}
+
+Гистограмма силы прокатки представлена на рис. \ref{fig:ppr}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth,natwidth=610,natheight=642]{pic/P_pr.png}
+	\caption{Сила прокатки по проходам}
+	\label{fig:ppr}
+\end{figure}
+
+Гистограмма момента прокатки представлена на рис. \ref{fig:m}. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth,natwidth=610,natheight=642]{pic/M.png}
+	\caption{Момент прокатки по проходам}
+	\label{fig:m}
+\end{figure}
+
+\cite{*}
+
+\ListSource{bibliogr}
+
+%\printbibliography[title={\centerline{\large СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ} \addcontentsline{toc}{chapter}{Список использованных источников}}]
+
+\Appendix
+\begin{center}
+\bfseries\large Текст программы tplsp.py
+\end{center}
+\label{appendix:tplsp}
+
+\begin{verbatim}
+1. from rolling_stand import Stand, LetStripStand
+2. 
+3. F_4, F_3, F_2, F_1, F_0 = 922.784, 683.544, 505.872,
+411.278, 1134.082
+4. B_4, B_4_sht, B_3, B_2, B_2_sht, B_1, B_0 = 28.282, 
+45.217, 30.552, 32.738, 20.94, 26.19, 38
+5. D_val, T_0, l_mk, n, = 300, 1020, 4000, 230
+6. lambda_4, lambda_3, lambda_2, lambda_1 = 1.231, 1.35
+, 1.351,1.23
+7. l_0 = 10_713
+8. #-----------вычисляем скорости прокатки-------------
+---
+9. caliber_4 = LetStripStand(F_0, F_4, B_0, B_4_sht, D_
+val, T_0, l_mk, n, lambda_4, l_0, 1)
+10. caliber_3 = LetStripStand(F_4, F_3, B_4, B_3, D_val
+, T_0, l_mk, n, lambda_3, l_0, 1)
+11. caliber_2 = LetStripStand(F_3, F_2, B_3, B_2, D_val
+, T_0, l_mk, n, lambda_2, l_0, 1)
+12. caliber_1 = LetStripStand(F_2, F_1, B_2_sht, B_1, D
+_val, T_0, l_mk, n, lambda_1, l_0, 1)
+13. #caliber_4.computing()
+14. #caliber_3.computing()
+15. #caliber_2.computing()
+16. #caliber_1.computing()
+17. 
+18. #----------вычисляем параметры прокатки------------
+----------
+19. caliber_4 = LetStripStand(F_0, F_4, B_0, B_4_sht, D
+_val, T_0, l_mk, n, lambda_4, l_0, caliber_3.v_vh)
+
+20. caliber_4.computing()
+21. caliber_3 = LetStripStand(F_4, F_3, B_4, B_3, D_val
+, caliber_4.params[r'$T_{ {вых}}$, $^{\circ}C$'], l
+_mk, n, lambda_3, caliber_4.params[r'$l_{ {вых}}$, 
+мм'], caliber_2.v_vh)
+22. caliber_3.computing()
+23. caliber_2 = LetStripStand(F_3, F_2, B_3, B_2, D_val
+, caliber_3.params[r'$T_{ {вых}}$, $^{\circ}C$'], l
+_mk, n, lambda_2, caliber_3.params[r'$l_{ {вых}}$, 
+мм'], caliber_1.v_vh)
+24. caliber_2.computing()
+25. caliber_1 = LetStripStand(F_2, F_1, B_2_sht, B_1, D
+_val, caliber_2.params[r'$T_{ {вых}}$, $^{\circ}C$'
+], l_mk, n, lambda_1, caliber_2.params[r'$l_{ {вых}
+}$, мм'], caliber_1.v)
+26. caliber_1.computing()
+27. 
+28. ans = []
+29. for key in caliber_4.params.keys():
+30.     tt = [key, round(caliber_4.params[key], 3), rou
+nd(caliber_3.params[key], 3), round(caliber_2.params[ke
+y], 3), round(caliber_1.params[key], 3)]
+31.     ans.append(tt)
+32. 
+33. ans = [['Параметр', 'Калибр № 4', 'Калибр № 3', 'Ка
+либр №2', 'Калибр №1']] + ans
+34. for i in ans:
+35.     print(*i, sep=' & ', end='\\\\\n\\hline\n')
+36.     
+37. 
+
+\end{verbatim}
+
+\Appendix
+\begin{center}
+	\bfseries\large Текст модуля rolling\_stand
+\end{center}
+
+\begin{verbatim}
+1. import sympy
+2. 
+3. class Stand:
+4.     def __init__(self, r_kat, h_0, h_1, b_0, t_vh, a
+, v, lambd, l_0, v_vh_next = None, b_1 = None):
+5.         self.r_kat = r_kat
+6.         self.h_0 = h_0
+7.         self.h_1 = h_1
+8.         self.b_0 = b_0
+9.         self.b_1 = b_1
+10.         self.t_vh = t_vh
+11.         self.a = a
+12.         self.v = v
+13.         self.lambd = lambd
+14.         self.l_0 = l_0
+15.         self.params = {}
+16.         self.v_vh_next = v_vh_next
+17.         self.is_computing = False
+18.     
+19.     def computing(self):
+20.         if self.is_computing:
+21.             return None
+22.         params = dict()
+23.         params[r'$\triangle h$, мм'] = self.h_0 - s
+elf.h_1
+24.         params[r'$\varepsilon$'] = params[r'$\trian
+gle h$, мм'] / self.h_0
+25.         params[r'$l$, мм'] = (self.r_kat * params[r
+'$\triangle h$, мм']) ** 0.5
+26.         params['$u$, $\\frac{1}{c}$'] = self.v * pa
+rams[r'$\varepsilon$'] * 1000 / params['$l$, мм']
+27.         #params['u'] = 0.105 * n_валков * (params[r
+'\varepsilon'] * R_рабочий_валков / self.h_0) ** 0.5
+28.         params[r'$\sigma_{ {ф}}$, МПа'] = 3250 
+* sympy.exp(-0.0028 * self.t_vh).n(5) * params[r'$\vare
+psilon$'] ** (0.28) * params['$u$, $\\frac{1}{c}$'] ** 
+(0.087)
+29.         def k_2(v):
+30.             if v < 3:
+31.                 return 1
+32.             else:
+33.                 return 1.53 * v ** (-0.467)
+34.         params[r'$\mu_{ {уст}}$'] = 0.6 * 0.8 *
+k_2(self.v) * 1.47 * (1.05 - 0.0005 * self.t_vh)
+35.         if self.b_1 is None:
+36.             print('b_1 is None!')
+37.             params[r'$\triangle b$'] = 1 / 2 * (l -
+params[r'$\triangle h$'] / ( 2 * params[r'$\mu_{ {
+уст}}$'])) * sympy.ln(self.h_0 / self.h_1).n(5)
+38.         else:
+39.             params[r'$\triangle b$, мм'] = ((self.b
+_1 - self.b_0) ** 2) ** 0.5
+40.         params[r'$b_{ {ср}}$, мм'] = self.b_0 +
+params[r'$\triangle b$, мм'] / 2
+41.         self.b_1 = self.b_0 + params[r'$\triangle b
+$, мм']
+42.         
+43.         def gamma(b_1, b_0, h_1, h_0, mu):
+44.             if (((b_1 + b_0) / 2) / ((h_0 + h_1) / 
+2) > 0.465 / mu):
+45.                 return 1.155
+46.             else:
+47.                 return 1 + mu / 3 * (((b_1 + b_0) /
+2) / ((h_0 + h_1) / 2))
+48.         def delta(mu, l, delta_h):
+49.             return (2 * mu * l) / (delta_h)
+50. 
+51.         def h_n(h_1, h_0, delta):
+52.             return (((1 + (1 + (delta ** 2 - 1) * (
+(h_0 / h_1) ** delta)) ** 0.5) / (delta + 1)) ** (1 / d
+elta)) * h_1
+53. 
+54. 
+55.         def n_1(l, h_1, h_0, mu):
+56.             if l / ((h_1 + h_0) / 2) > 4:
+57.                 return 1 + l / (4 * ((h_1 + h_0) / 
+2))
+58.             elif l / ((h_1 + h_0) / 2) > 2:
+59.                 d = delta(mu, l, (h_0 - h_1))
+60.                 hn = h_n(h_1, h_0, d)
+61.                 return (2 * hn) / ((h_0 - h_1) * (d
+- 1)) * ((hn / h_1) ** d - 1)
+62.             else:
+63.                 return 1 + l / (6 * ((h_1 + h_0) / 
+2))
+64. 
+65.         def n_2(l, h_1, h_0):
+66.             if l / ((h_1 + h_0) / 2) > 1:
+67.                 return 1
+68.             else:
+69.                 return (l / ((h_1 + h_0) / 2)) ** (
+-0.4)
+70. 
+71.         def n_v(l, b_1, b_0, h_1, h_0, mu):
+72.             return (1 + ((3 * ((b_1 + b_0) / 2) - l
+) / (6 * ((b_1 + b_0) / 2))) * mu * l / ((h_1 + h_0) / 
+2)) / (1 + mu / 2 * l / ((h_0 + h_1) / 2))
+73. 
+74.         def n_k(mu, l, h_1, h_0, gamma):
+75.             h_sr = (h_1 + h_0) / 2
+76.             return (1.155 * (1 + 2 * mu * 0.9 * l /
+(3 * h_sr * sympy.pi.n(5)))) / (gamma * (1 + mu / 3 * 
+l / h_sr))
+77.         def p_sr(h_1, h_0, b_1, b_0, l, mu, sigma_f
+):
+78.             gm = gamma(b_1, b_0, h_1, h_0, mu)
+79.             n1 = n_1(l, h_1, h_0, mu)
+80.             n2 = n_2(l, h_1, h_0)
+81.             nv = n_v(l, b_1, b_0, h_1, h_0, mu)
+82.             nk = n_k(mu, l, h_1, h_0, gm)
+83.             return gm * n1 * n2 * 1 * nv * nk * sig
+ma_f
+84.         
+85.         def k_2(v):
+86.             return 1.53 * v ** (-0.467) if v > 3 el
+se 1
+87. 
+88.         def mu(v, t):
+89.             return 0.6 * 0.8 * k_2(v) * 1.47 * (1.0
+5 - 0.0005 * t)
+90.         
+91.         p_mid = p_sr(self.h_1, self.h_0, self.b_1, 
+self.b_0, params['$l$, мм'], params[r'$\mu_{ {уст}}
+$'], params[r'$\sigma_{ {ф}}$, МПа'])
+92.         params[r'$p_{ {ср}}$, МПа'] = p_mid
+93.         f_k = p_mid * (self.b_1 + self.b_0) / 2 * p
+arams['$l$, мм'] # Это в ньютонах
+94.         params[r'$P_{ {пр}}$, кН'] = f_k / 1000
+# это в килоньютонах
+95.         def var_m(mu, l, h_1, h_0):
+96.             h_sr = (h_1 + h_0) / 2
+97.             return mu * l / h_sr
+98. 
+99.         def var_psi(epsilon, mu, l, h_1, h_0):
+100.             m = var_m(mu, l, h_1, h_0)
+101.             if m >= 0.5:
+102.                 return 1 / (2 - epsilon) * (1 - ep
+silon * (l ** m / (l ** m - 1) - 1 / m))
+103.             else:
+104.                 return 0.5 * (1 / (1 - epsilon / 2
+)) * (1 - epsilon * (1 + m) / (2 + m))
+105. 
+106.         def mom_prok(epsilon, mu, l, h_1, h_0, p):
+107.             psi = var_psi(epsilon, mu, l, h_1, h_0
+)
+108.             return 2 * p * psi * l / 1000
+109.         
+110.         mp = mom_prok(params[r'$\varepsilon$'], pa
+rams[r'$\mu_{ {уст}}$'], params['$l$, мм'], self.h_
+1, self.h_0, p_mid)
+111.         params['$M_{\ {пр}}$, кН$\\cdot$мм'] =
+mp
+112.         
+113.         v_vih = self.v * self.lambd
+114.         #params[r'v_{ {вых}}'] = v_vih
+115.         params[r'$l_{ {вых}}$, мм'] = self.l_0
+* self.lambd
+116.         
+117.         def delta_t_d(p, h_0, h_1):
+118.             return p * sympy.ln(h_0 / h_1).n(5) * 
+0.8 / (7900 * 548) * 10 ** 6
+119. 
+120.         def delta_t_v(h_0, h_1, t_vh, l, v):
+121.             #return 0
+122.             return 4.87 / (h_0 + h_1) * (t_vh - 50
+) * (2 * l * h_0 / (10 ** 3 * (h_0 + h_1) * v)) ** 0.5
+123. 
+124.         def delta_t_l(t_vh, t_d, t_v, h_1, l_mk, l
+_1, v, v_vh_next):
+125.             t = t_vh + t_d - t_v + 273
+126.             tau = l_mk / v + (l_1-l_mk) / v_vh_nex
+t # так как моя заготовка > 4 метров
+127.             return 17.5 * t ** 4 / h_1 * tau * 10 
+** (-15)
+128. 
+129.         def delta_t_k(t_l):
+130.             return 0.03 * t_l
+131. 
+132.         def t_vih(t_vh, p, h_0, h_1, v, l, l_mk, l
+_1, v_vh_next):
+133.             t_d = delta_t_d(p, h_0, h_1)
+134.             t_v = delta_t_v(h_0, h_1, t_vh, l, v)
+135.             t_l = delta_t_l(t_vh, t_d, t_v, h_1, l
+_mk, l_1, v, v_vh_next)
+136.             t_k = delta_t_k(t_l)
+137.             return t_vh + t_d - t_v - t_l - t_k, t
+_d, t_v, t_l, t_k
+138.         
+139.         params[r'$T_{ {вых}}$, $^{\circ}C$'], 
+t_d, t_v, t_l, t_k = t_vih(self.t_vh, p_mid, self.h_0, 
+self.h_1, self.v, params['$l$, мм'], self.a, params[r'$
+l_{ {вых}}$, мм'], self.v_vh_next)
+140.         
+141.         params[r'$\triangle T_{ {д}}$, $^{\cir
+c}C$'] = t_d
+142.         params[r'$\triangle T_{ {в}}$, $^{\cir
+c}C$'] = t_v
+143.         params[r'$\triangle T_{ {л}}$, $^{\cir
+c}C$'] = t_l
+144.         params[r'$\triangle T_{ {к}}$, $^{\cir
+c}C$'] = t_k
+145.         
+146.         params['$\\tau$'] = self.a / (self.v * 100
+0) + (params[r'$l_{ {вых}}$, мм']-self.a) / (self.v
+_vh_next * 1000)
+147.         
+148.         self.params = params
+149.         self.is_computing = True
+150.     
+151.     def return_params(self):
+152.         if not self.is_computing:
+153.             self.computing()
+154.         return self.params
+155. 
+156. class LetStripStand(Stand):
+157.     def __init__(self, f_start, f_end, b_start, b_
+end, d_valkov, t_vh, a, n, lambd, l_0, v_vh_next):
+158.         h_0 = f_start / b_start
+159.         h_1 = f_end / b_end
+160.         d_kat = d_valkov - f_end / b_end
+161.         r_kat = d_kat / 2
+162.         v = (3.1415 * r_kat * 2 * n) / 60_000
+163.         self.v_vh = v / lambd
+164.         #r_kat, h_0, h_1, b_0, t_vh, a, v, lambd, 
+l_0, v_vh_next = None, b_1 = None
+165.         super().__init__(r_kat, h_0, h_1, b_start,
+t_vh, a, v, lambd, l_0, v_vh_next, b_end)
+166.     
+167.     def computing(self):
+168.         super().computing()
+169.         self.params['$v_{\ {вх}}$'] = self.v_v
+h
+170.         self.params['$v_{\ {вых}}$'] = self.v
+171. 
+
+
+\end{verbatim}

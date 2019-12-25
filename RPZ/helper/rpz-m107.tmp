@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd"> 
+<?xtpipes file="oo-math.4xt" ?> 
+<!-- rpz-m107 by TeX4ht from rpz.tex line 744 2018-07-04-14:25 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/) --> 
+<math 
+ xmlns="http://www.w3.org/1998/Math/MathML" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
+>
+                                <msub><mrow 
+><mi 
+>p</mi></mrow><mrow 
+><mi 
+>&#x0441;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+> <mo 
+ >=</mo> <mi 
+>&#x03B3;</mi><msubsup><mrow 
+><mi 
+>n</mi></mrow><mrow 
+><mi 
+>&#x03C3;</mi></mrow><mrow 
+><mi 
+>&#x2032;</mi></mrow></msubsup 
+><msubsup><mrow 
+><mi 
+>n</mi></mrow><mrow 
+>
+<mi 
+>&#x03C3;</mi></mrow><mrow 
+><mi 
+ >&#x2033;</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo></mrow></msubsup 
+><msubsup><mrow 
+><mi 
+>n</mi></mrow><mrow 
+>
+<mi 
+>&#x03C3;</mi></mrow><mrow 
+><mi 
+ >&#x2034;</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo></mrow></msubsup 
+><msub><mrow 
+><mi 
+>n</mi></mrow><mrow 
+>
+<mi 
+>&#x0432;</mi></mrow></msub 
+><msub><mrow 
+><mi 
+>n</mi></mrow><mrow 
+><mi 
+>&#x043A;</mi></mrow></msub 
+><msub><mrow 
+><mi 
+>&#x03C3;</mi></mrow><mrow 
+><mi 
+>&#x0444;</mi></mrow></msub 
+>
+</math>
+                                                                                          
+                                                                                          

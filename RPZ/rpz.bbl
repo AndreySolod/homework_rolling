@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{mainbook}
+\selectlanguageifdefined{russian}
+К.~Смирнов~В., А.~Шилов~В., В.~Инатович~Ю.
+  Калибровка прокатных валков.
+\newblock <<Теплотехник>>, 2010.
+
+\bibitem{nikitin}
+\selectlanguageifdefined{russian}
+С.~Никитин~Г. Теория непрерывной продольной
+  прокатки.
+\newblock МГТУ им. Н. Э. Баумана, 2009.
+
+\bibitem{energosila}
+\selectlanguageifdefined{russian}
+Никитин~Г.С., Восканьянц~А.~А., Крюков~К.~А.
+  Расчёт энергосиловых параметров при
+  горячей прокатке в непрерывной группе
+  сортового стана: метод. указания.
+\newblock МГТУ им. Н. Э. Баумана, 2010.
+
+\bibitem{tselikov}
+\selectlanguageifdefined{russian}
+Теория прокатки. Справочник~/ Целиков~А.~И.,
+  Томленов~А.~Д., Зюзин~В.~И. {[и~др.]}; {под ред.
+  }Целиков~А.~И.
+\newblock МГТУ им. Н. Э. Баумана, 1982.
+
+\end{thebibliography}

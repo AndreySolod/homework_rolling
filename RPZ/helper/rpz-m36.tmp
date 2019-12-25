@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd"> 
+<?xtpipes file="oo-math.4xt" ?> 
+<!-- rpz-m36 by TeX4ht from rpz.tex line 519 2018-07-04-14:25 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/) --> 
+
+<math 
+ xmlns="http://www.w3.org/1998/Math/MathML" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
+>
+                   <msub><mrow 
+><mi 
+>H</mi></mrow><mrow 
+><mn>2</mn></mrow></msub 
+> <mo 
+ >=</mo> <msqrt><mrow><mfrac><mrow> <msub><mrow 
+><mi 
+>F</mi> </mrow><mrow 
+><mn>2</mn> </mrow> </msub 
+> </mrow>
+<mrow><mn>0</mn><mo 
+ >.</mo><mn>6</mn><mrow ><mo 
+ >(</mo><mrow><mn>2</mn><mo 
+ >.</mo><mn>0</mn><mn>7</mn> <mo 
+ >&#x2212;</mo> <msub><mrow 
+><mi 
+>&#x03B4;</mi></mrow><mrow 
+><mn>2</mn></mrow></msub 
+></mrow><mo 
+ >)</mo></mrow><mrow ><mo 
+ >(</mo><mrow><msub><mrow 
+><mi 
+>a</mi></mrow><mrow 
+><mi 
+>&#x043A;</mi></mrow></msub 
+><msub><mrow 
+><mi 
+>&#x03B4;</mi></mrow><mrow 
+><mn>2</mn></mrow></msub 
+> <mo 
+ >+</mo> <mn>0</mn><mo 
+ >.</mo><mn>6</mn><mn>6</mn><msub><mrow 
+><mi 
+>&#x03B4;</mi></mrow><mrow 
+><mn>2</mn></mrow></msub 
+> <mo 
+ >&#x2212;</mo> <mn>0</mn><mo 
+ >.</mo><mn>4</mn><mn>3</mn></mrow><mo 
+ >)</mo></mrow></mrow></mfrac></mrow></msqrt>
+</math>
+                                                                                          
+                                                                                          

@@ -1,0 +1,1924 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=latex 2019.11.28)  25 DEC 2019 16:45
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx\HCode\def\HCod
+e##1{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g
+@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\doc
+umentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname te
+x4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HC
+ode}{\documentstyle[tex4ht]}}}\makeatother\HCode xhtml,ooffice.a.b.c.\input  rp
+z.tex
+(./rpz.tex (c:/texlive/2019/texmf-dist/tex/latex/extsizes/extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2019-03-18-15:24
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks14
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2019-10-31-14:15
+)
+(c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(c:/texlive/2019/texmf-dist/tex/latex/t2/mathtext.sty
+Package: mathtext 2018/04/14 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 121.
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/11/14 3.36 The Babel package
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/11/14 3.36 Babel switching mechanism
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/11/14 3.36 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen104
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `T2A' encoding will be loaded  on input line 74.
+
+
+(c:/texlive/2019/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+\symT2Aletters=\mathgroup4
+)
+Package babel Info: Making " an active character on input line 120.
+Package babel Info: Default for \cyrdash is provided on input line 157.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2019-10-31-14:15
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 105.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2019/11/16 v2.17d AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen107
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+\symOMLletters=\mathgroup7
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\symOMSletters=\mathgroup8
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks20
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks21
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks29
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 147.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(c:/texlive/2019/texmf-dist/tex/latex/vmargin/vmargin.sty
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+\PaperWidth=\dimen116
+\PaperHeight=\dimen117
+) (c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip49
+\multirow@cntb=\count103
+\multirow@dima=\skip50
+\bigstrutjot=\dimen118
+)
+(c:/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box29
+\UL@hyphenbox=\box30
+\UL@skip=\skip51
+\UL@hook=\toks30
+\UL@height=\dimen119
+\UL@pe=\count104
+\UL@pixel=\dimen120
+\ULC@box=\box31
+Package: ulem 2012/05/18
+\ULdepth=\dimen121
+)
+\c@IndAppendix=\count105
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2019/10/18 v3.4a Customizing captions (AR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2019/09/09 v1.8e caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count106
+\c@continuedfloat=\count107
+)
+(c:/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip52
+\enit@outerparindent=\dimen129
+\enit@toks=\toks31
+\enit@inbox=\box32
+\enit@count@id=\count108
+\enitdp@description=\count109
+)
+\c@totaltable=\count110
+\c@totalfigure=\count111
+\c@totalappendix=\count112
+
+(c:/texlive/2019/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip53
+\cftbeforetoctitleskip=\skip54
+\cftaftertoctitleskip=\skip55
+\cftbeforepartskip=\skip56
+\cftpartnumwidth=\skip57
+\cftpartindent=\skip58
+\cftbeforechapskip=\skip59
+\cftchapindent=\skip60
+\cftchapnumwidth=\skip61
+\cftbeforesecskip=\skip62
+\cftsecindent=\skip63
+\cftsecnumwidth=\skip64
+\cftbeforesubsecskip=\skip65
+\cftsubsecindent=\skip66
+\cftsubsecnumwidth=\skip67
+\cftbeforesubsubsecskip=\skip68
+\cftsubsubsecindent=\skip69
+\cftsubsubsecnumwidth=\skip70
+\cftbeforeparaskip=\skip71
+\cftparaindent=\skip72
+\cftparanumwidth=\skip73
+\cftbeforesubparaskip=\skip74
+\cftsubparaindent=\skip75
+\cftsubparanumwidth=\skip76
+\cftbeforeloftitleskip=\skip77
+\cftafterloftitleskip=\skip78
+\cftbeforefigskip=\skip79
+\cftfigindent=\skip80
+\cftfignumwidth=\skip81
+\c@lofdepth=\count113
+\c@lotdepth=\count114
+\cftbeforelottitleskip=\skip82
+\cftafterlottitleskip=\skip83
+\cftbeforetabskip=\skip84
+\cfttabindent=\skip85
+\cfttabnumwidth=\skip86
+)
+\c@my:enumi=\count115
+\c@my:enumii=\count116
+\c@my:enumiii=\count117
+\c@symbol:enumi=\count118
+
+(c:/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
+\LTleft=\skip87
+\LTright=\skip88
+\LTpre=\skip89
+\LTpost=\skip90
+\LTchunksize=\count119
+\LTcapwidth=\dimen130
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count120
+\LT@rows=\count121
+\c@LT@tables=\count122
+\c@LT@chunks=\count123
+\LT@p@ftn=\toks32
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2019-10-31-14:15
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
+version 2018-12-30-09:29
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (c:/texlive/2019/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2019-03-18-15:24
+
+--- needs --- tex4ht rpz ---
+\tmp:cnt=\count124
+\openout15 = `rpz.tmp'.
+
+(./rpz.tmp)
+\tmp:dim=\skip91
+ (./rpz.xref)
+\:refout=\write3
+\openout3 = `rpz.xref'.
+
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- for end notes instead of footnotes, use the command line option `e
+ndnotes'
+--------------------------------------
+--------------------------------------
+--- Note --- to request links from the tables of contents, use the command line
+ option from `TocLink'
+--------------------------------------
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+)
+\:tokwrite=\toks33
+\:tokpage=\toks34
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `rpz.4ct'.
+
+\:tocout=\write4
+\openout4 = `rpz.4tc'.
+
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2019-08-26-14:22
+LaTeX Info: Redefining \_ on input line 168.
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- to hide clickable index and bibliography references use the comman
+d line option `hidden-ref'
+--------------------------------------
+\tmp:bx=\box37
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+--------------------------------------
+--- Note --- for tab-based layoutof equation environment use the command line o
+ption `tab-eq'
+--------------------------------------
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+version 2018-11-06-15:55
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+ [1
+
+]
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+389.
+
+(c:/texlive/2019/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 138
+9.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 138
+9.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
+389.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1389.
+
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1389.
+
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1389.
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+389.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1389.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1389.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1389.
+
+ [2] [3] [4] [5] [6]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+[22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
+[37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+--------------------------------------
+--- Note --- for sources failing to produce clean mathml code, try the command 
+line option `mathml-'
+--------------------------------------
+ [49] [50] [51]
+[52] [53]) (c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/extreport.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/report.4ht
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+--------------------------------------
+--- Note --- for a degraded bibliography friendlier for conversion to .doc, use
+ the command line option `bib-'
+--------------------------------------
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/inputenc.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/babel.4ht
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/russianb.4ht
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/graphicx.4ht
+version 2018-10-01-14:24
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/graphics.4ht
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/dvips.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/amssymb.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+ [54] [55] [56]
+[57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
+[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
+[87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]
+[102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
+[114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
+[126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
+[150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161]
+[162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185]
+[186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197]
+[198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209]
+[210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
+[222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233]
+[234] [235] [236] [237] [238] [239] [240] [241] [242] [243] [244] [245]
+[246] [247] [248] [249] [250] [251] [252] [253] [254] [255] [256] [257])
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/amsfonts.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/amsmath.4ht
+version 2019-01-24-14:21
+\tmp:muskip=\muskip11
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+--------------------------------------
+--- Note --- for tab-based layout of equation environment use the command line 
+option `tab-eq'
+--------------------------------------
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/amstext.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/amsbsy.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/amsopn.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/amsthm.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/color.4ht
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/dvipsnam.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/multirow.4ht
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ulem.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/caption.4ht
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/enumitem.4ht
+version 2009-05-21-09:32
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/tocloft.4ht
+version 2014-07-13-16:08
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/longtable.4ht
+\LT:box=\box38
+\LT:ebox=\box39
+
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+))
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice.4ht
+version 2019-09-12-14:02
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2019-11-26-14:23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/tex4ht/ooffice-mml.4ht
+version 2018-07-04-14:25
+)) (./rpz.aux)
+\openout1 = `rpz.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 393.
+LaTeX Font Info:    ... okay on input line 393.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 393.
+LaTeX Font Info:    ... okay on input line 393.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 393.
+LaTeX Font Info:    ... okay on input line 393.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 393.
+LaTeX Font Info:    ... okay on input line 393.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 393.
+LaTeX Font Info:    ... okay on input line 393.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 393.
+LaTeX Font Info:    ... okay on input line 393.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 393.
+LaTeX Font Info:    ... okay on input line 393.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+ (./rpz.4ct)
+[1]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+396.
+(c:/texlive/2019/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [2
+
+]
+--- file rpz-m2.4om ---
+ [3]
+--- file rpz-m3.4om ---
+ [4
+
+]
+--- file rpz-m4.4om ---
+ [5
+
+]
+--- file rpz-m5.4om ---
+
+[6
+
+]
+--- file rpz-m6.4om ---
+ [7
+
+] [8
+
+]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+[9
+
+] [10
+
+]
+l. 441 --- needs --- drawing.png ---
+ [11
+
+]
+--- file rpz-m7.4om ---
+ [12
+
+]
+--- file rpz-m8.4om ---
+ [13
+
+]
+
+LaTeX Warning: Citation `mainbook' on page 14 undefined on input line 452.
+
+--- file rpz-m9.4om ---
+[14
+
+]
+--- file rpz-m10.4om ---
+ [15
+
+]
+--- file rpz-m11.4om ---
+ [16
+
+]
+--- file rpz-m12.4om ---
+ [17
+
+]
+--- file rpz-m13.4om ---
+ [18
+
+]
+
+LaTeX Warning: Citation `mainbook' on page 19 undefined on input line 459.
+
+--- file rpz-m14.4om ---
+[19
+
+]
+--- file rpz-m15.4om ---
+ [20
+
+]
+--- file rpz-m16.4om ---
+ [21
+
+]
+--- file rpz-m17.4om ---
+ [22
+
+]
+--- file rpz-m18.4om ---
+ [23
+
+]
+--- file rpz-m19.4om ---
+ [24
+
+]
+--- file rpz-m20.4om ---
+ [25
+
+]
+--- file rpz-m21.4om ---
+ [26
+
+]
+--- file rpz-m22.4om ---
+ [27
+
+]
+--- file rpz-m23.4om ---
+ [28
+
+]
+--- file rpz-m24.4om ---
+ [29
+
+]
+--- file rpz-m25.4om ---
+ [30
+
+]
+
+LaTeX Warning: Citation `mainbook' on page 31 undefined on input line 488.
+
+--- file rpz-m26.4om ---
+[31
+
+]
+--- file rpz-m27.4om ---
+ [32
+
+]
+--- file rpz-m28.4om ---
+ [33
+
+] [34
+
+] [35
+
+]
+l. 493 --- needs --- NomP15.png ---
+--- file rpz-m29.4om ---
+ [36
+
+] [37
+
+] [38
+
+] [39
+
+]
+l. 500 --- needs --- NomP13.png ---
+ [40
+
+]
+--- file rpz-m30.4om ---
+ [41
+
+]
+--- file rpz-m31.4om ---
+ [42
+
+]
+--- file rpz-m32.4om ---
+ [43
+
+]
+--- file rpz-m33.4om ---
+ [44
+
+]
+--- file rpz-m34.4om ---
+ [45
+
+]
+--- file rpz-m35.4om ---
+
+[46
+
+]
+
+LaTeX Warning: Citation `mainbook' on page 47 undefined on input line 518.
+
+--- file rpz-m36.4om ---
+[47
+
+]
+--- file rpz-m37.4om ---
+ [48
+
+]
+--- file rpz-m38.4om ---
+ [49
+
+]
+--- file rpz-m39.4om ---
+ [50
+
+]
+--- file rpz-m40.4om ---
+ [51
+
+]
+--- file rpz-m41.4om ---
+ [52
+
+]
+--- file rpz-m42.4om ---
+ [53
+
+]
+--- file rpz-m43.4om ---
+ [54
+
+]
+--- file rpz-m44.4om ---
+ [55
+
+]
+--- file rpz-m45.4om ---
+ [56
+
+]
+--- file rpz-m46.4om ---
+ [57
+
+]
+--- file rpz-m47.4om ---
+ [58
+
+]
+--- file rpz-m48.4om ---
+ [59
+
+]
+--- file rpz-m49.4om ---
+ [60
+
+]
+--- file rpz-m50.4om ---
+ [61
+
+]
+--- file rpz-m51.4om ---
+
+[62
+
+]
+--- file rpz-m52.4om ---
+ [63
+
+]
+--- file rpz-m53.4om ---
+ [64
+
+]
+--- file rpz-m54.4om ---
+ [65
+
+]
+--- file rpz-m55.4om ---
+ [66
+
+]
+--- file rpz-m56.4om ---
+ [67
+
+]
+--- file rpz-m57.4om ---
+ [68
+
+]
+--- file rpz-m58.4om ---
+ [69
+
+]
+--- file rpz-m59.4om ---
+ [70
+
+]
+--- file rpz-m60.4om ---
+ [71
+
+]
+--- file rpz-m61.4om ---
+ [72
+
+]
+--- file rpz-m62.4om ---
+ [73
+
+] [74
+
+] [75
+
+]
+l. 578 --- needs --- NomP24.png ---
+--- file rpz-m63.4om ---
+ [76
+
+]
+[77
+
+] [78
+
+] [79
+
+]
+l. 585 --- needs --- NomP25.png ---
+--- file rpz-m64.4om ---
+ [80
+
+]
+--- file rpz-m65.4om ---
+ [81
+
+] [82
+
+]
+--- file rpz-m66.4om ---
+ [83
+
+]
+--- file rpz-m67.4om ---
+ [84
+
+]
+--- file rpz-m68.4om ---
+ [85
+
+]
+--- file rpz-m69.4om ---
+ [86
+
+]
+--- file rpz-m70.4om ---
+ [87
+
+]
+--- file rpz-m71.4om ---
+ [88
+
+]
+--- file rpz-m72.4om ---
+ [89
+
+]
+--- file rpz-m73.4om ---
+ [90
+
+]
+--- file rpz-m74.4om ---
+ [91
+
+]
+--- file rpz-m75.4om ---
+
+[92
+
+]
+--- file rpz-m76.4om ---
+ [93
+
+]
+--- file rpz-m77.4om ---
+ [94
+
+]
+--- file rpz-m78.4om ---
+ [95
+
+] [96
+
+] [97
+
+]
+l. 622 --- needs --- LambdaEta.png ---
+ [98
+
+] [99
+
+] [100] [101
+
+] [102
+
+]
+--- file rpz-m79.4om ---
+--- file rpz-m80.4om ---
+--- file rpz-m81.4om ---
+--- file rpz-m82.4om ---
+--- file rpz-m83.4om ---
+--- file rpz-m84.4om ---
+--- file rpz-m85.4om ---
+--- file rpz-m86.4om ---
+--- file rpz-m87.4om ---
+--- file rpz-m88.4om ---
+--- file rpz-m89.4om ---
+--- file rpz-m90.4om ---
+ [103
+
+] [104
+
+] [105
+
+]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+--- file rpz-m91.4om ---
+[106
+
+]
+--- file rpz-m92.4om ---
+ [107
+
+]
+--- file rpz-m93.4om ---
+ [108
+
+]
+--- file rpz-m94.4om ---
+ [109
+
+]
+--- file rpz-m95.4om ---
+ [110
+
+]
+--- file rpz-m96.4om ---
+ [111
+
+]
+--- file rpz-m97.4om ---
+ [112
+
+]
+--- file rpz-m98.4om ---
+ [113
+
+]
+--- file rpz-m99.4om ---
+ [114
+
+]
+--- file rpz-m100.4om ---
+ [115
+
+]
+--- file rpz-m101.4om ---
+ [116
+
+]
+--- file rpz-m102.4om ---
+ [117
+
+]
+--- file rpz-m103.4om ---
+
+[118
+
+]
+--- file rpz-m104.4om ---
+ [119
+
+]
+--- file rpz-m105.4om ---
+ [120
+
+]
+--- file rpz-m106.4om ---
+ [121
+
+]
+--- file rpz-m107.4om ---
+ [122
+
+]
+--- file rpz-m108.4om ---
+ [123
+
+]
+--- file rpz-m109.4om ---
+ [124
+
+]
+--- file rpz-m110.4om ---
+ [125
+
+]
+--- file rpz-m111.4om ---
+ [126
+
+]
+--- file rpz-m112.4om ---
+ [127
+
+]
+--- file rpz-m113.4om ---
+ [128
+
+]
+--- file rpz-m114.4om ---
+ [129
+
+]
+--- file rpz-m115.4om ---
+
+[130
+
+]
+--- file rpz-m116.4om ---
+ [131
+
+]
+--- file rpz-m117.4om ---
+ [132
+
+]
+--- file rpz-m118.4om ---
+ [133
+
+]
+--- file rpz-m119.4om ---
+ [134
+
+]
+--- file rpz-m120.4om ---
+ [135
+
+]
+--- file rpz-m121.4om ---
+ [136
+
+]
+--- file rpz-m122.4om ---
+ [137
+
+]
+--- file rpz-m123.4om ---
+ [138
+
+]
+--- file rpz-m124.4om ---
+ [139
+
+]
+--- file rpz-m125.4om ---
+ [140
+
+]
+--- file rpz-m126.4om ---
+ [141
+
+]
+--- file rpz-m127.4om ---
+
+[142
+
+]
+--- file rpz-m128.4om ---
+ [143
+
+]
+--- file rpz-m129.4om ---
+ [144
+
+]
+--- file rpz-m130.4om ---
+ [145
+
+]
+--- file rpz-m131.4om ---
+ [146
+
+]
+--- file rpz-m132.4om ---
+ [147
+
+]
+--- file rpz-m133.4om ---
+ [148
+
+]
+--- file rpz-m134.4om ---
+ [149
+
+]
+--- file rpz-m135.4om ---
+ [150
+
+]
+--- file rpz-m136.4om ---
+ [151
+
+]
+--- file rpz-m137.4om ---
+ [152
+
+]
+--- file rpz-m138.4om ---
+ [153
+
+]
+--- file rpz-m139.4om ---
+
+[154
+
+]
+--- file rpz-m140.4om ---
+ [155
+
+]
+--- file rpz-m141.4om ---
+ [156
+
+]
+--- file rpz-m142.4om ---
+ [157
+
+]
+--- file rpz-m143.4om ---
+ [158
+
+]
+--- file rpz-m144.4om ---
+ [159
+
+]
+--- file rpz-m145.4om ---
+ [160
+
+]
+--- file rpz-m146.4om ---
+ [161
+
+]
+--- file rpz-m147.4om ---
+ [162
+
+]
+--- file rpz-m148.4om ---
+ [163
+
+]
+--- file rpz-m149.4om ---
+ [164
+
+]
+--- file rpz-m150.4om ---
+ [165
+
+]
+--- file rpz-m151.4om ---
+
+[166
+
+]
+--- file rpz-m152.4om ---
+ [167
+
+]
+--- file rpz-m153.4om ---
+ [168
+
+] [169
+
+] [170
+
+]
+--- file rpz-m154.4om ---
+--- file rpz-m155.4om ---
+--- file rpz-m156.4om ---
+--- file rpz-m157.4om ---
+--- file rpz-m158.4om ---
+--- file rpz-m159.4om ---
+--- file rpz-m160.4om ---
+--- file rpz-m161.4om ---
+--- file rpz-m162.4om ---
+--- file rpz-m163.4om ---
+--- file rpz-m164.4om ---
+--- file rpz-m165.4om ---
+--- file rpz-m166.4om ---
+--- file rpz-m167.4om ---
+--- file rpz-m168.4om ---
+--- file rpz-m169.4om ---
+--- file rpz-m170.4om ---
+--- file rpz-m171.4om ---
+--- file rpz-m172.4om ---
+--- file rpz-m173.4om ---
+--- file rpz-m174.4om ---
+--- file rpz-m175.4om ---
+--- file rpz-m176.4om ---
+--- file rpz-m177.4om ---
+--- file rpz-m178.4om ---
+--- file rpz-m179.4om ---
+--- file rpz-m180.4om ---
+ [171
+
+] [172
+
+] [173
+
+]
+l. 929 --- needs --- delta_h.png ---
+ [174
+
+] [175
+
+] [176
+
+]
+l. 938 --- needs --- epsilon.png ---
+ [177
+
+]
+[178
+
+] [179
+
+]
+l. 947 --- needs --- p_sr.png ---
+ [180
+
+] [181
+
+] [182
+
+]
+l. 956 --- needs --- P_pr.png ---
+ [183
+
+] [184
+
+] [185
+
+]
+l. 965 --- needs --- M.png ---
+ [186
+
+]
+l.970 --- TeX4ht warning --- \Link{X*}? ---
+No file rpz.bbl.
+[187
+
+]
+
+LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <15.5> not available
+(Font)              size <14.4> substituted on input line 976.
+
+[188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] (./rpz.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.1pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12260 strings out of 492165
+ 168211 string characters out of 6129128
+ 402770 words of memory out of 5000000
+ 16206 multiletter control sequences out of 15000+600000
+ 12643 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,21n,48p,1387b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on rpz.dvi (457 pages, 677540 bytes).

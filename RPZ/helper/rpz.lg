@@ -1,0 +1,232 @@
+htfcss: labx font-weight: bold;
+htfcss: latt font-family: monospace;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+htfcss: cmbsy font-weight: bold;
+htfcss: cmbsy font-weight: bold;
+htfcss: cmbsy font-weight: bold;
+File: rpz.4oo
+File: rpz.tmp
+File: rpz-settings.4os
+File: rpz-styles.4oy
+File: rpz-manifest.4of
+File: rpz-meta.4ot
+File: rpz-m2.4om
+File: rpz-m3.4om
+File: rpz-m4.4om
+File: rpz-m5.4om
+File: rpz-m6.4om
+File: pic/drawing.png.4og
+File: rpz-m7.4om
+File: rpz-m8.4om
+File: rpz-m9.4om
+File: rpz-m10.4om
+File: rpz-m11.4om
+File: rpz-m12.4om
+File: rpz-m13.4om
+File: rpz-m14.4om
+File: rpz-m15.4om
+File: rpz-m16.4om
+File: rpz-m17.4om
+File: rpz-m18.4om
+File: rpz-m19.4om
+File: rpz-m20.4om
+File: rpz-m21.4om
+File: rpz-m22.4om
+File: rpz-m23.4om
+File: rpz-m24.4om
+File: rpz-m25.4om
+File: rpz-m26.4om
+File: rpz-m27.4om
+File: rpz-m28.4om
+File: pic/NomP15.png.4og
+File: rpz-m29.4om
+File: pic/NomP13.png.4og
+File: rpz-m30.4om
+File: rpz-m31.4om
+File: rpz-m32.4om
+File: rpz-m33.4om
+File: rpz-m34.4om
+File: rpz-m35.4om
+File: rpz-m36.4om
+File: rpz-m37.4om
+File: rpz-m38.4om
+File: rpz-m39.4om
+File: rpz-m40.4om
+File: rpz-m41.4om
+File: rpz-m42.4om
+File: rpz-m43.4om
+File: rpz-m44.4om
+File: rpz-m45.4om
+File: rpz-m46.4om
+File: rpz-m47.4om
+File: rpz-m48.4om
+File: rpz-m49.4om
+File: rpz-m50.4om
+File: rpz-m51.4om
+File: rpz-m52.4om
+File: rpz-m53.4om
+File: rpz-m54.4om
+File: rpz-m55.4om
+File: rpz-m56.4om
+File: rpz-m57.4om
+File: rpz-m58.4om
+File: rpz-m59.4om
+File: rpz-m60.4om
+File: rpz-m61.4om
+File: rpz-m62.4om
+File: pic/NomP24.png.4og
+File: rpz-m63.4om
+File: pic/NomP25.png.4og
+File: rpz-m64.4om
+File: rpz-m65.4om
+File: rpz-m66.4om
+File: rpz-m67.4om
+File: rpz-m68.4om
+File: rpz-m69.4om
+File: rpz-m70.4om
+File: rpz-m71.4om
+File: rpz-m72.4om
+File: rpz-m73.4om
+File: rpz-m74.4om
+File: rpz-m75.4om
+File: rpz-m76.4om
+File: rpz-m77.4om
+File: rpz-m78.4om
+File: pic/LambdaEta.png.4og
+File: rpz-m79.4om
+File: rpz-m80.4om
+File: rpz-m81.4om
+File: rpz-m82.4om
+File: rpz-m83.4om
+File: rpz-m84.4om
+File: rpz-m85.4om
+File: rpz-m86.4om
+File: rpz-m87.4om
+File: rpz-m88.4om
+File: rpz-m89.4om
+File: rpz-m90.4om
+File: rpz-m91.4om
+File: rpz-m92.4om
+File: rpz-m93.4om
+File: rpz-m94.4om
+File: rpz-m95.4om
+File: rpz-m96.4om
+File: rpz-m97.4om
+File: rpz-m98.4om
+File: rpz-m99.4om
+File: rpz-m100.4om
+File: rpz-m101.4om
+File: rpz-m102.4om
+File: rpz-m103.4om
+File: rpz-m104.4om
+File: rpz-m105.4om
+File: rpz-m106.4om
+File: rpz-m107.4om
+File: rpz-m108.4om
+File: rpz-m109.4om
+File: rpz-m110.4om
+File: rpz-m111.4om
+File: rpz-m112.4om
+File: rpz-m113.4om
+File: rpz-m114.4om
+File: rpz-m115.4om
+File: rpz-m116.4om
+File: rpz-m117.4om
+File: rpz-m118.4om
+File: rpz-m119.4om
+File: rpz-m120.4om
+File: rpz-m121.4om
+File: rpz-m122.4om
+File: rpz-m123.4om
+File: rpz-m124.4om
+File: rpz-m125.4om
+File: rpz-m126.4om
+File: rpz-m127.4om
+File: rpz-m128.4om
+File: rpz-m129.4om
+File: rpz-m130.4om
+File: rpz-m131.4om
+File: rpz-m132.4om
+File: rpz-m133.4om
+File: rpz-m134.4om
+File: rpz-m135.4om
+File: rpz-m136.4om
+File: rpz-m137.4om
+File: rpz-m138.4om
+File: rpz-m139.4om
+File: rpz-m140.4om
+File: rpz-m141.4om
+File: rpz-m142.4om
+File: rpz-m143.4om
+File: rpz-m144.4om
+File: rpz-m145.4om
+File: rpz-m146.4om
+File: rpz-m147.4om
+File: rpz-m148.4om
+File: rpz-m149.4om
+File: rpz-m150.4om
+File: rpz-m151.4om
+File: rpz-m152.4om
+File: rpz-m153.4om
+File: rpz-m154.4om
+File: rpz-m155.4om
+File: rpz-m156.4om
+File: rpz-m157.4om
+File: rpz-m158.4om
+File: rpz-m159.4om
+File: rpz-m160.4om
+File: rpz-m161.4om
+File: rpz-m162.4om
+File: rpz-m163.4om
+File: rpz-m164.4om
+File: rpz-m165.4om
+File: rpz-m166.4om
+File: rpz-m167.4om
+File: rpz-m168.4om
+File: rpz-m169.4om
+File: rpz-m170.4om
+File: rpz-m171.4om
+File: rpz-m172.4om
+File: rpz-m173.4om
+File: rpz-m174.4om
+File: rpz-m175.4om
+File: rpz-m176.4om
+File: rpz-m177.4om
+File: rpz-m178.4om
+File: rpz-m179.4om
+File: rpz-m180.4om
+File: pic/delta_h.png.4og
+File: pic/epsilon.png.4og
+File: pic/p_sr.png.4og
+File: pic/P_pr.png.4og
+File: pic/M.png.4og
+File: rpz.4od
+File: rpz.odt
+--- characters ---
+Font("cmex","10","10","100")
+Font("cmr","7","7","100")
+Font("cmr","10","10","100")
+Font("cmmi","7","7","100")
+Font("cmmi","10","10","100")
+Font("cmsy","7","7","100")
+Font("cmsy","10","10","100")
+Font("cmr","12","12","120")
+Font("cmbsy","10","10","144")
+Font("cmbsy","10","10","100")
+Font("cmbsy","7","7","100")
+Font("cmex","10","10","144")
+Font("cmex","7","7","100")
+Font("larm","1440","14","100")
+Font("larm","1000","10","100")
+Font("larm","0700","7","100")
+Font("msam","10","10","144")
+Font("msam","10","10","100")
+Font("msam","7","7","100")
+Font("msbm","10","10","144")
+Font("msbm","10","10","100")
+Font("msbm","7","7","100")
+Font("cmmi","12","12","120")
+Font("cmsy","10","10","144")
+Font("latt","1440","14","100")
+Font("labx","1440","14","100")

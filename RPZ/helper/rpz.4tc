@@ -1,0 +1,27 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{1}{x1-10001}{QQ2-1-1}{Исходные данные}}{2}\relax 
+\doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{1}{x1-20002}{QQ2-1-2}{Расчёт формоизменения полосы}}{9}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-2002}{}{\numberline {2.1}{\ignorespaces Схема деформации полосы\relax }}}{11}\relax 
+\doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{1}{x1-30002.1}{QQ2-1-3}{Расчёт параметров конечного сечения калибра}}{12}\relax 
+\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{1}{x1-40002.2}{QQ2-1-4}{Расчёт формоизменения полосы в проходах 1 и 2}}{24}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-4002}{}{\numberline {2.2}{\ignorespaces Номограмма П15 для определения суммарного коэффициента вытяжки $ \lambda _{\Sigma } $ при прокатке по схеме круг--овал--квадрат\relax }}}{36}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-4004}{}{\numberline {2.3}{\ignorespaces Номограмма П13\relax }}}{40}\relax 
+\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{1}{x1-50002.3}{QQ2-1-5}{Расчёт формоизменения полосы в калибрах 3 и 4}}{55}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-5003}{}{\numberline {2.4}{\ignorespaces Номограмма П24 для определения суммарного коэффициента вытяжки $ \lambda _{\Sigma } $ при прокатке по схеме круг--овал--круг\relax }}}{76}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-5005}{}{\numberline {2.5}{\ignorespaces Номограмма П25 для определения коэффициента обжатия $ \frac  {1}{\eta _1} $ и коэффициента вытяжки $ \lambda _1 $ при прокатке овального раската~--- в круглом калибре\relax }}}{80}\relax 
+\doTocEntry\tocsection{2.4}{\csname a:TocLink\endcsname{1}{x1-60002.4}{QQ2-1-6}{Конечные размеры калибров}}{96}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-6002}{}{\numberline {2.6}{\ignorespaces Значения коэффициентов вытяжки и обжатия по проходам\relax }}}{98}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-6004}{}{\numberline {2.1}{\ignorespaces Формоизменение полосы и размеры калибров\relax }}}{103}\relax 
+\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{1}{x1-70003}{QQ2-1-7}{Расчёт энергосиловых параметров}}{106}\relax 
+\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{1}{x1-80003.1}{QQ2-1-8}{Формулы для расчёта энергосиловых параметров}}{106}\relax 
+\doTocEntry\tocsection{3.2}{\csname a:TocLink\endcsname{1}{x1-90003.2}{QQ2-1-9}{Исходные данные для расчёта в программе}}{158}\relax 
+\doTocEntry\tocsection{3.3}{\csname a:TocLink\endcsname{1}{x1-100003.3}{QQ2-1-10}{Результаты расчёта энергосиловых параметров}}{169}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-10002}{}{\numberline {3.1}{\ignorespaces Результаты расчёта программы tplsp.py\relax }}}{171}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-10004}{}{\numberline {3.1}{\ignorespaces Абсолютное обжатие полосы по проходам\relax }}}{174}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-10006}{}{\numberline {3.2}{\ignorespaces Относительная деформация по проходам\relax }}}{177}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-10008}{}{\numberline {3.3}{\ignorespaces Среднее контактное давление по проходам\relax }}}{180}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-10010}{}{\numberline {3.4}{\ignorespaces Сила прокатки по проходам\relax }}}{183}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-10012}{}{\numberline {3.5}{\ignorespaces Момент прокатки по проходам\relax }}}{186}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-11}{}{Список использованных источников}}{187}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-12}{}{Приложение \CYRA }}{188}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-13}{}{Приложение \CYRB }}{192}\relax 

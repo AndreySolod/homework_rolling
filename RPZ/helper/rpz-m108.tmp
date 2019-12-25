@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd"> 
+<?xtpipes file="oo-math.4xt" ?> 
+<!-- rpz-m108 by TeX4ht from rpz.tex line 749 2018-07-04-14:25 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/) --> 
+ <math 
+ xmlns="http://www.w3.org/1998/Math/MathML" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
+>
+<mi 
+>&#x03B3;</mi> <mo 
+ >=</mo>  <mfenced separators="" 
+open="{"  close="" ><mrow> <mtable  
+equalrows="false" equalcolumns="false" class="array"><mtr><mtd 
+   columnalign="left"><mn>1</mn><mo 
+ >.</mo><mn>1</mn><mn>5</mn><mn>5</mn>       <mspace width="1em"  /></mtd><mtd 
+   columnalign="left"><mo 
+ >,</mo><mfrac><mrow> <msub><mrow 
+><mi 
+>b</mi></mrow><mrow 
+><mi 
+>&#x0441;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+></mrow> 
+<mrow><msub><mrow 
+><mi 
+>h</mi></mrow><mrow 
+><mi 
+>&#x0441;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+></mrow></mfrac>  <mo 
+ >&#x003E;</mo><mfrac><mrow> <mn>0</mn><mo 
+ >.</mo><mn>4</mn><mn>6</mn><mn>5</mn></mrow> 
+ <mrow><msub><mrow 
+><mi 
+>&#x03BC;</mi></mrow><mrow 
+><mi 
+>&#x0443;</mi><mi 
+>&#x0441;</mi><mi 
+>&#x0442;</mi></mrow></msub 
+></mrow></mfrac>  </mtd>
+</mtr><mtr><mtd 
+   columnalign="left"><mn>1</mn> <mo 
+ >+</mo><mfrac><mrow> <msub><mrow 
+><mi 
+>&#x03BC;</mi></mrow><mrow 
+><mi 
+>&#x0443;</mi><mi 
+>&#x0441;</mi><mi 
+>&#x0442;</mi></mrow></msub 
+></mrow> 
+  <mrow><mn>3</mn></mrow></mfrac><mfrac><mrow>  <msub><mrow 
+><mi 
+>b</mi></mrow><mrow 
+><mi 
+>&#x0441;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+></mrow> 
+<mrow><msub><mrow 
+><mi 
+>h</mi></mrow><mrow 
+><mi 
+>&#x0441;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+></mrow></mfrac><mspace width="1em"  /></mtd><mtd 
+   columnalign="left"><mo 
+ >,</mo><mfrac><mrow> <msub><mrow 
+><mi 
+>b</mi></mrow><mrow 
+><mi 
+>&#x0441;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+></mrow> 
+<mrow><msub><mrow 
+><mi 
+>h</mi></mrow><mrow 
+><mi 
+>&#x0441;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+></mrow></mfrac>  <mo 
+ >&#x003C;</mo><mfrac><mrow> <mn>0</mn><mo 
+ >.</mo><mn>4</mn><mn>6</mn><mn>5</mn></mrow> 
+ <mrow><msub><mrow 
+><mi 
+>&#x03BC;</mi></mrow><mrow 
+><mi 
+>&#x0443;</mi><mi 
+>&#x0441;</mi><mi 
+>&#x0442;</mi></mrow></msub 
+></mrow></mfrac>  </mtd>
+</mtr>           <!--@{}l@{\quad }l@{}--></mtable>                                                                                                                                  </mrow></mfenced>
+</math>
+                                                                                          
+                                                                                          

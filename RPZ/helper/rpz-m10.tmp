@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd"> 
+<?xtpipes file="oo-math.4xt" ?> 
+<!-- rpz-m10 by TeX4ht from rpz.tex line 454 2018-07-04-14:25 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/) --> 
+<math 
+ xmlns="http://www.w3.org/1998/Math/MathML" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
+>
+            <mi 
+>r</mi><mi 
+ >&#x2245;</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo><mrow ><mo 
+ >(</mo><mrow><mn>0</mn><mo 
+ >.</mo><mn>1</mn><mi 
+ >&#x2026;</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo><mn>0</mn><mo 
+ >.</mo><mn>2</mn></mrow><mo 
+ >)</mo></mrow> <mo 
+ >&#x22C5;</mo> <msub><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mn>1</mn></mrow></msub 
+> <mo 
+ >=</mo> <mrow ><mo 
+ >(</mo><mrow><mn>0</mn><mo 
+ >.</mo><mn>1</mn><mi 
+ >&#x2026;</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo><mn>0</mn><mo 
+ >.</mo><mn>2</mn></mrow><mo 
+ >)</mo></mrow> <mo 
+ >&#x22C5;</mo> <mn>2</mn><mn>0</mn><mo 
+ >.</mo><mn>2</mn><mn>8</mn> <mo 
+ >=</mo> <mn>2</mn><mo 
+ >.</mo><mn>0</mn><mn>2</mn><mn>8</mn><mi 
+ >&#x2026;</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo><mn>4</mn><mo 
+ >.</mo><mn>0</mn><mn>5</mn><mn>6</mn> <mo 
+ >&#x2248;</mo> <mn>3</mn><mspace width="0.28em"  /><mi 
+>&#x043C;</mi><mi 
+>&#x043C;</mi>
+</math>
+                                                                                          
+                                                                                          

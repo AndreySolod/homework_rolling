@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd"> 
+<?xtpipes file="oo-math.4xt" ?> 
+<!-- rpz-m139 by TeX4ht from rpz.tex line 846 2018-07-04-14:25 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/) --> 
+
+<math 
+ xmlns="http://www.w3.org/1998/Math/MathML" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
+>
+                                      <msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>O</mi><mi 
+>A</mi></mrow></msub 
+> <mo 
+ >=</mo><mfrac><mrow>  <msub><mrow 
+><mi 
+>l</mi></mrow><mrow 
+><mi 
+>O</mi><mi 
+>A</mi></mrow></msub 
+></mrow> 
+<mrow><msub><mrow 
+><mi 
+>v</mi></mrow><mrow 
+><mi 
+>&#x0432;</mi><mi 
+>&#x044B;</mi><mi 
+>&#x0445;</mi></mrow></msub 
+></mrow></mfrac>
+</math>
+                                                                                          
+                                                                                          

@@ -1,0 +1,81 @@
+1. from rolling_stand import Stand, LetStripStand
+2. 
+3. F_4, F_3, F_2, F_1, F_0 = 922.784, 683.544, 505.872,
+ 411.278, 1134.082
+
+4. B_4, B_4_sht, B_3, B_2, B_2_sht, B_1, B_0 = 28.282, 
+45.217, 30.552, 32.738, 20.94, 26.19, 38
+
+5. D_val, T_0, l_mk, n, = 300, 1020, 4000, 230
+6. lambda_4, lambda_3, lambda_2, lambda_1 = 1.231, 1.35
+, 1.351,1.23
+
+7. l_0 = 10_713
+8. #-----------вычисляем скорости прокатки-------------
+---
+
+9. caliber_4 = LetStripStand(F_0, F_4, B_0, B_4_sht, D_
+val, T_0, l_mk, n, lambda_4, l_0, 1)
+
+10. caliber_3 = LetStripStand(F_4, F_3, B_4, B_3, D_val
+, T_0, l_mk, n, lambda_3, l_0, 1)
+
+11. caliber_2 = LetStripStand(F_3, F_2, B_3, B_2, D_val
+, T_0, l_mk, n, lambda_2, l_0, 1)
+
+12. caliber_1 = LetStripStand(F_2, F_1, B_2_sht, B_1, D
+_val, T_0, l_mk, n, lambda_1, l_0, 1)
+
+13. #caliber_4.computing()
+14. #caliber_3.computing()
+15. #caliber_2.computing()
+16. #caliber_1.computing()
+17. 
+18. #----------вычисляем параметры прокатки------------
+----------
+
+19. caliber_4 = LetStripStand(F_0, F_4, B_0, B_4_sht, D
+_val, T_0, l_mk, n, lambda_4, l_0, caliber_3.v_vh)
+
+20. caliber_4.computing()
+21. caliber_3 = LetStripStand(F_4, F_3, B_4, B_3, D_val
+, caliber_4.params[r'$T_{\text{вых}}$, $^{\circ}C$'], l
+_mk, n, lambda_3, caliber_4.params[r'$l_{\text{вых}}$, 
+мм'], caliber_2.v_vh)
+
+
+
+22. caliber_3.computing()
+23. caliber_2 = LetStripStand(F_3, F_2, B_3, B_2, D_val
+, caliber_3.params[r'$T_{\text{вых}}$, $^{\circ}C$'], l
+_mk, n, lambda_2, caliber_3.params[r'$l_{\text{вых}}$, 
+мм'], caliber_1.v_vh)
+
+
+
+24. caliber_2.computing()
+25. caliber_1 = LetStripStand(F_2, F_1, B_2_sht, B_1, D
+_val, caliber_2.params[r'$T_{\text{вых}}$, $^{\circ}C$'
+], l_mk, n, lambda_1, caliber_2.params[r'$l_{\text{вых}
+}$, мм'], caliber_1.v)
+
+
+
+26. caliber_1.computing()
+27. 
+28. ans = []
+29. for key in caliber_4.params.keys():
+30.     tt = [key, round(caliber_4.params[key], 3), rou
+nd(caliber_3.params[key], 3), round(caliber_2.params[ke
+y], 3), round(caliber_1.params[key], 3)]
+
+
+31.     ans.append(tt)
+32. 
+33. ans = [['Параметр', 'Калибр № 4', 'Калибр № 3', 'Ка
+либр №2', 'Калибр №1']] + ans
+
+34. for i in ans:
+35.     print(*i, sep=' & ', end='\\\\\n\\hline\n')
+36.     
+37. 

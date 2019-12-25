@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd"> 
+<?xtpipes file="oo-math.4xt" ?> 
+<!-- rpz-m22 by TeX4ht from rpz.tex line 480 2018-07-04-14:25 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/) --> 
+
+<math 
+ xmlns="http://www.w3.org/1998/Math/MathML" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
+>
+                             <msub><mrow 
+><mi 
+>&#x03BB;</mi></mrow><mrow 
+><mi 
+>&#x0441;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+> <mo 
+ >=</mo> <mroot><mrow 
+><msub><mrow 
+><mi 
+>&#x03BB;</mi></mrow><mrow 
+><mi 
+>&#x03A3;</mi></mrow></msub 
+></mrow><mrow 
+><mn>4</mn></mrow></mroot> <mo 
+ >=</mo> <mroot><mrow 
+><mn>2</mn><mo 
+ >.</mo><mn>7</mn><mn>5</mn><mn>7</mn></mrow><mrow 
+><mn>4</mn></mrow></mroot> <mo 
+ >=</mo> <mn>1</mn><mo 
+ >.</mo><mn>2</mn><mn>8</mn><mn>9</mn>
+</math>
+                                                                                          
+                                                                                          

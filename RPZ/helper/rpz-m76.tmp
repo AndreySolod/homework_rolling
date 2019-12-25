@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd"> 
+<?xtpipes file="oo-math.4xt" ?> 
+<!-- rpz-m76 by TeX4ht from rpz.tex line 610 2018-07-04-14:25 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/) --> 
+<math 
+ xmlns="http://www.w3.org/1998/Math/MathML" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
+>
+               <msub><mrow 
+><mi 
+>B</mi></mrow><mrow 
+><mi 
+>&#x0432;</mi><mi 
+>&#x0440;</mi></mrow></msub 
+> <mo 
+ >=</mo> <mrow ><mo 
+ >(</mo><mrow><mn>2</mn><mn>8</mn><mo 
+ >.</mo><mn>2</mn><mn>8</mn><mn>2</mn> <mo 
+ >&#x2212;</mo> <mn>2</mn></mrow><mo 
+ >)</mo></mrow> <mo 
+ >&#x22C5;</mo><msqrt><mrow><mfrac><mrow> <mn>4</mn> <mo 
+ >&#x22C5;</mo> <mn>5</mn><mn>1</mn><mo 
+ >.</mo><mn>5</mn><mn>4</mn><mn>4</mn></mrow>
+<mrow><mn>2</mn><mn>8</mn><mo 
+ >.</mo><mn>2</mn><mn>8</mn><mn>2</mn> <mo 
+ >&#x2212;</mo> <mn>2</mn></mrow></mfrac> <mo 
+ >&#x2212;</mo> <mn>1</mn></mrow></msqrt> <mo 
+ >=</mo> <mn>6</mn><mn>8</mn><mo 
+ >.</mo><mn>7</mn><mn>6</mn><mn>0</mn><mspace width="0.28em"  /><mi 
+>&#x043C;</mi><mi 
+>&#x043C;</mi>
+</math>
+                                                                                          
+                                                                                          

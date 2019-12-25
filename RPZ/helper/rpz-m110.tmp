@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd"> 
+<?xtpipes file="oo-math.4xt" ?> 
+<!-- rpz-m110 by TeX4ht from rpz.tex line 764 2018-07-04-14:25 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/) --> 
+ <math 
+ xmlns="http://www.w3.org/1998/Math/MathML" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
+><mfrac><mrow>
+                             <msub><mrow 
+><mi 
+>h</mi></mrow><mrow 
+><mi 
+>&#x043D;</mi></mrow></msub 
+></mrow> 
+<mrow><msubsup><mrow 
+><mi 
+>h</mi></mrow><mrow 
+><mn>1</mn></mrow><mrow 
+><mi 
+>&#x043F;</mi><mi 
+>&#x0440;</mi></mrow></msubsup 
+></mrow></mfrac>  <mo 
+ >=</mo><msup><mrow 
+> <mfenced separators="" 
+open="("  close=")" ><mrow><mfrac><mrow><mn>1</mn> <mo 
+ >+</mo> <msqrt><mrow><mn>1</mn> <mo 
+ >+</mo> <mrow ><mo 
+ >(</mo><mrow><msup><mrow 
+><mi 
+>&#x03B4;</mi></mrow><mrow 
+><mn>2</mn> </mrow> </msup 
+> <mo 
+ >&#x2212;</mo> <mn>1</mn></mrow><mo 
+ >)</mo></mrow> <mo 
+ >&#x22C5;</mo><msup><mrow 
+> <mfenced separators="" 
+open="("  close=")" ><mrow><mfrac><mrow><msubsup><mrow 
+><mi 
+>h</mi></mrow><mrow 
+><mn>0</mn> </mrow> <mrow 
+>  <mi 
+>&#x043F;</mi><mi 
+>&#x0440;</mi> </mrow> </msubsup 
+></mrow>
+<mrow><msubsup><mrow 
+><mi 
+>h</mi></mrow><mrow 
+><mn>1</mn></mrow><mrow 
+><mi 
+>&#x043F;</mi><mi 
+>&#x0440;</mi></mrow></msubsup 
+></mrow></mfrac></mrow></mfenced> </mrow><mrow 
+><mi 
+>&#x03B4;</mi></mrow></msup 
+></mrow></msqrt></mrow>
+                <mrow><mi 
+>&#x03B4;</mi> <mo 
+ >+</mo> <mn>1</mn></mrow></mfrac>              </mrow></mfenced> </mrow><mrow 
+><mfrac><mrow 
+><mn>1</mn></mrow>
+<mrow 
+><mi 
+>&#x03B4;</mi></mrow></mfrac> </mrow></msup 
+>
+</math>
+                                                                                          
+                                                                                          

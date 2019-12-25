@@ -1,0 +1,14 @@
+\babel@toc {russian}{}
+\contentsline {chapter}{\numberline {1}Исходные данные}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Расчёт формоизменения полосы}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Расчёт параметров конечного сечения калибра}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Расчёт формоизменения полосы в проходах 1 и 2}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Расчёт формоизменения полосы в калибрах 3 и 4}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Конечные размеры калибров}{12}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Расчёт энергосиловых параметров}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Формулы для расчёта энергосиловых параметров}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Исходные данные для расчёта в программе}{19}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Результаты расчёта энергосиловых параметров}{20}{section.3.3}%
+\contentsline {chapter}{Список использованных источников}{20}{figure.caption.13}%
+\contentsline {chapter}{Приложение А}{25}{IndAppendix.1}%
+\contentsline {chapter}{Приложение Б}{28}{IndAppendix.2}%

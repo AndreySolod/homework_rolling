@@ -1,0 +1,367 @@
+%стиль пишется под класс 'extreport'
+%\RequirePackage[14pt]{extsizes}
+%\RequirePackage{cmap} % для кодировки шрифтов в pdf
+%\RequirePackage{mathtext}
+\RequirePackage[russian]{babel}
+\RequirePackage[utf8]{inputenc}
+%\RequirePackage{xltxtra}
+
+%\RequirePackage{polyglossia}
+%\setmainlanguage{russian}
+%\setotherlanguage{english}
+%\setkeys{russian}{babelshorthands=true}
+
+%\setmainfont{Times New Roman}
+%\setromanfont{Times New Roman} 
+%\setsansfont{Arial} 
+%\setmonofont{Courier New} 
+
+%\newfontfamily{\cyrillicfont}{Times New Roman} 
+%\newfontfamily{\cyrillicfontrm}{Times New Roman}
+%\newfontfamily{\cyrillicfonttt}{Courier New}
+%\newfontfamily{\cyrillicfontsf}{Arial}
+
+%\addto\captionsrussian{%
+%  \renewcommand{\figurename}{Рисунок}%
+% \renewcommand{\tablename}{Таблица}%
+%}
+
+\RequirePackage{graphicx} % для вставки картинок
+\RequirePackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
+\RequirePackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
+\RequirePackage[usenames,dvipsnames]{color} % названия цветов
+\RequirePackage{vmargin}
+\setpapersize{A4}
+\setmarginsrb{3cm}{2cm}{1.5cm}{2cm}{0pt}{0mm}{0pt}{13mm}
+\RequirePackage{multirow} % улучшенное форматирование таблиц
+\binoppenalty=10000
+\relpenalty=10000 % Запрещает перенос формул после знаков бинарных операций и отношений.
+
+\RequirePackage{ulem} % подчеркивания
+%\RequirePackage{tikz}
+\linespread{1.3} % полуторный интервал
+\frenchspacing
+\sloppy % Допускает создание максимально разреженных строк для того, чтобы не выйти за поля
+
+%\RequirePackage[datesep={.}]{datetime2} %Дата и время
+%\DTMsetstyle{ddmmyyyy}
+
+%\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+%\usepackage{csquotes}
+
+\newcommand{\RNumb}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+\newcounter{IndAppendix} %Счётчик приложений. Думаю, что желательно его подключить здесь.
+\RequirePackage[tableposition=top]{caption} % Красивая подпись к рисункам и графикам
+\DeclareCaptionLabelFormat{gostfigure}{Рисунок #2}
+\DeclareCaptionLabelFormat{gosttable}{Таблица #2}
+\DeclareCaptionLabelSeparator{gost}{~---~}
+\captionsetup{labelsep=gost}
+\captionsetup[figure]{labelformat=gostfigure}
+\captionsetup[table]{labelformat=gosttable}
+
+\newcommand{\@maketablecaption}[2]{ % Подпись к таблице --- слева вверху. Спасибо интернет за это.
+\vskip\abovecaptionskip
+\sbox\@tempboxa{#1 --- #2}%
+\ifdim \wd\@tempboxa >\hsize
+#1 --- #2\par
+\else
+\global \@minipagefalse
+\hb@xt@\hsize{\box\@tempboxa}%
+\fi
+\vskip\belowcaptionskip}
+\renewcommand{\table}
+{\let\@makecaption\@maketablecaption\@float{table}}
+
+\parindent=1.25cm % Абзацный отступ
+
+\renewcommand\large{\@setfontsize\large{15.5}{17}}
+
+\RequirePackage{enumitem} % Переопределение обычного enumerate и itemize
+\AddEnumerateCounter{\arabic}{\@arabic}{}
+\setlist{nolistsep}
+\renewcommand{\labelitemi}{--- }
+\renewcommand{\labelenumi}{\arabic{enumi}}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+
+% Счётчики общего числа страниц, таблиц, рисунков и источников
+\newcounter{totaltable} \setcounter{totaltable} {0}
+\newcounter{totalfigure}\setcounter{totalfigure}{0}
+\newcounter{totalappendix}
+
+% Команды отображение общего числа ...
+\newcommand{\totalpages}{\pageref{reftotalpages}}
+\newcommand{\totaltables}{\ref{reftotaltables}}
+\newcommand{\totalfigures}{\ref{reftotalfigures}}
+\newcommand{\totalappendix}{\ref{reftotalappendix}}
+
+\RequirePackage[pdfborder={0 0 0}]{hyperref} % Добавляет в документ возможность использовать гиперссылки в PDF
+%\RequirePackage{hyperref}
+
+
+%Переопределение главы:
+
+\renewcommand{\@makechapterhead}[1]{% Начало макроопределения
+\vspace*{0 pt}% Пустое место вверху страницы
+{
+\raggedright \normalfont\large\bfseries
+%\@chapapp{} % \@chapapp печатает слово "Глава" (см. ниже)
+\hspace{1.25cm} \thechapter \hspace{0.5em}% \par % номер главы - в отдельной строке
+%\vspace{20 pt} % между словом "Глава" и ее заголовком
+\normalfont\large\bfseries\hyphenpenalty=9999 #1\par % заголовок главы
+\nopagebreak % чтоб не оторвать заголовок от текста
+\vspace{2 pt} % между заголовком и текстом
+}% конец группы.
+}% конец макроопределения
+
+\renewcommand{\section}{\@startsection{section}{2}% Секция основного текста
+{\parindent}{0pt}{1.5ex}%
+{\normalfont\normalsize\bfseries\hyphenpenalty=9999
+}}
+
+\renewcommand{\subsection}{\@startsection{subsection}{3}{\parindent}% Подсекция основного текста
+{0pt}{1.5ex}%
+{\normalfont\normalsize\bfseries\hyphenpenalty=9999
+}}
+
+\usepackage{tocloft} %регулировка расположения TableOfContent (Оглавления) на странице
+
+\renewcommand{\cftchapfont}{\normalsize }
+
+\renewcommand{\cfttoctitlefont}{\hspace{0.38\textwidth}\bfseries\MakeUppercase} %уменьшаем размер шрифта и ровняем по центру
+
+% % Межстрочные отступы в Оглавлении:
+\setlength{\cftbeforetoctitleskip}{0mm} %отступ Оглавления от верхнего поля страницы.
+\setlength{\cftbeforechapskip}{1mm} %отступ между главами
+\setlength{\cftbeforesecskip}{1mm} %отступ между секциями \section{title}
+
+% % Отступы от левого поля:
+\setlength{\cftchapindent}{0mm} %отступ между левым полем и \chapter{}
+\setlength{\cftsecindent}{1.5em} %отступ между левым полем и \section{title}
+
+% % Отточия в Оглавлении
+\renewcommand\cftchapdotsep{\cftdot} %добавляет отточия после \chapter{title}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}} %делает отточия после \chapter{title} тонкими, (по умолчанию жирные).
+\renewcommand\cftsecdotsep{\cftdot} %делает отточия после \section{title} частыми.
+\renewcommand\cftsubsecdotsep{\cftdot}
+\cftsetpnumwidth{1.5em} % до какого  момента идут отточия в оглавлении
+\setcounter{tocdepth}{2} % задать глубину оглавления — до subsection включительно
+\setcounter{secnumdepth}{3}
+
+\AtBeginDocument{\def\contentsname{СОДЕРЖАНИЕ}
+\renewcommand\bibname{\vspace{-6ex} \centerline{\large СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
+%\renewcommand\bibname{{\begin{center} \bfseries\noindent\large СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ\end{center}}}
+}
+
+%                  Перечисления:
+
+\newenvironment{GostItemize}{%Через тире
+\renewcommand{\item}{\par
+--- }
+}{}
+
+\newcounter{my:enumi}
+\newcounter{my:enumii}[my:enumi]
+\newcounter{my:enumiii}[my:enumii]
+
+\newenvironment{GostEnumerate}{%Через цифры
+\setcounter{my:enumi}{0}
+\setcounter{my:enumii}{0}
+\setcounter{my:enumiii}{0}
+\renewcommand{\item}{\par
+\refstepcounter{my:enumi}
+\arabic{my:enumi} }
+
+\renewenvironment{GostEnumerate}{
+\setcounter{my:enumii}{0}
+\setcounter{my:enumiii}{0}
+\renewcommand{\item}{\par
+\refstepcounter{my:enumii}
+\arabic{my:enumi}.\arabic{my:enumii} }
+
+\renewenvironment{GostEnumerate}{
+\setcounter{my:enumiii}{0}
+\renewcommand{\item}{\par
+\refstepcounter{my:enumiii}
+\arabic{my:enumi}.\arabic{my:enumii}.\arabic{my:enumiii} }
+}{}
+}{}
+}{}
+
+\newcounter{symbol:enumi} % Символьная нумерация
+\newenvironment{GostSymbolEnumerate}{
+\setcounter{symbol:enumi}{0}
+\renewcommand{\item}{\par
+\refstepcounter{symbol:enumi}
+\asbuk{symbol:enumi}) }}{}
+
+% Стандартные части
+
+%Титульник
+\newcommand{\theauthor}{}
+\renewcommand{\author}[1]{\renewcommand{\theauthor}{#1}}
+\newcommand{\thegroup}{МТ10-72}
+\newcommand{\group}[1]{\renewcommand{\thegroup}{#1}}
+\newcommand{\thesubject}{}
+\newcommand{\subject}[1]{\renewcommand{\thesubject}{#1}}
+\newcommand{\thevariant}{}
+\newcommand{\variant}[1]{\renewcommand{\thevariant}{#1}}
+\newcommand{\thefaculty}{}
+\newcommand{\faculty}[1]{\renewcommand{\thefaculty}{#1}}
+\newcommand{\thedepartment}{}
+\newcommand{\department}[1]{\renewcommand{\thedepartment}{#1}}
+\newcommand{\theteacher}{}
+\newcommand{\teacher}[1]{\renewcommand{\theteacher}{#1}}%
+
+%\renewcommand{\maketitle}{\newpage\thispagestyle{empty}
+%\noindent\centerline{\includegraphics[width=145mm]{for_title.png}}
+%\begin{center}
+%Московский ордена Ленина, ордена Октябрьской Революции и Ордена Трудового Красного Знамени
+%государственный технический университет им. Н. Э. Баумана
+%\end{center}
+%\vfill
+%\begin{center}
+%Факультет <<\thefaculty>>
+
+%Кафедра <<\thedepartment>>
+
+%\end{center}
+%\vfill
+%\begin{center}
+%Домашнее задание по курсу:%
+
+%{\bfseries\large<<\thesubject>>}
+%\end{center}
+%\vfill
+%\centerline{Вариант \thevariant}
+%\vfill
+%\begin{flushright}\begin{tabular}{lc}
+%\multicolumn{2}{c}{Выполнил}\\
+%Студент & \theauthor\\
+%\cline{2-2}
+%Группа & \thegroup\\
+%\cline{2-2}
+% & \\
+% Преподаватель & \theteacher\\
+% \cline{2-2}
+% Дата предъявления & \\
+% \cline{2-2}
+% & \\
+% Дата зачёта & \\
+% \cline{2-2}
+% Подпись преподавателя & \\
+% \cline{2-2}
+% \end{tabular} \end{flushright}
+%\vfill
+%\vfill
+%\vfill
+%\begin{center}
+%Москва, \today
+%\end{center}
+%\clearpage
+%}
+
+
+\newcommand{\Executors}{% Список исполнителей
+\newpage
+\begin{center}
+\noindent\bfseries\large СПИСОК ИСПОЛНИТЕЛЕЙ\\
+\end{center}}
+
+\newcommand{\Repherat}{% Реферат
+\newpage
+\begin{center}
+\noindent\bfseries\large РЕФЕРАТ\\
+\end{center}
+
+%Отчёт \totalpages{} c, \totalfigures{} рис., \totaltables{} табл., \totalappendix{} примеч.,
+}
+
+\newcommand{\TermAndDefine}{% Термины и определения
+\newpage
+\begin{center}
+\bfseries\noindent\large ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ\\
+\end{center}
+\addcontentsline{toc}{chapter}{Термины и определения}
+}
+
+\newcommand{\IndividualTask}{% Индивидуальное задание
+\newpage
+\begin{center}
+\bfseries\noindent\large ИНДИВИДУАЛЬНОЕ ЗАДАНИЕ\\
+\end{center}
+}
+
+\newcommand{\listAbbreviationAndNotation}{% Перечень сокращений и обозначений
+\newpage
+\begin{center}
+\bfseries\noindent\large ПЕРЕЧЕНЬ СОКРАЩЕНИЙ И ОБОЗНАЧЕНИЙ
+\end{center}
+\addcontentsline{toc}{chapter}{Перечень сокращений и обозначений}
+}
+
+\newcommand{\Introduction}{% Введение
+\newpage
+\begin{center}
+\noindent\bfseries\large ВВЕДЕНИЕ
+\end{center}
+\addcontentsline{toc}{chapter}{Введение}
+}
+
+\newcommand{\Conclusion}{%Заключение
+\newpage
+\begin{center}
+\bfseries\noindent\large ЗАКЛЮЧЕНИЕ\\
+\end{center}
+\addcontentsline{toc}{chapter}{Заключение}
+}
+
+\newcommand{\ListSource}[1]{%Список использованных источников
+%\begin{center}
+%\bfseries\noindent\large СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ
+%\end{center}
+
+%\bibliographystyle{main_file/utf8gost71}  %% стилевой файл для оформления по ГОСТу
+%\bibliography{#1}     %% имя библиографической базы (bib-файла)
+%\printbibliography[title={\vspace{-5ex}\begin{center} \bfseries\large СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ \end{center}\vspace{-2ex}}]
+\addcontentsline{toc}{chapter}{Список использованных источников}
+\bibliographystyle{utf8gost705u}  %% стилевой файл для оформления по ГОСТу
+\bibliography{#1}     %% имя библиографической базы (bib-файла) 
+%\bibliographystyle{utf8gost705u}  %% стилевой файл для оформления по ГОСТу
+%\bibliography{#1}
+}
+
+
+\newcommand{\Appendix}{%% Приложение
+\newpage\refstepcounter{IndAppendix}
+\begin{center}
+\bfseries\noindent\large ПРИЛОЖЕНИЕ \Asbuk{IndAppendix}
+\end{center}
+\addcontentsline{toc}{chapter}{Приложение \Asbuk{IndAppendix}}
+%\captionsetup[figure]{labelformat=gostfigure2}
+%\captionsetup[table]{labelformat=gosttable2}
+\addtocounter{totaltable}{\c@table}
+\setcounter{table}{0}
+\addtocounter{totalfigure}{\c@figure}
+\setcounter{figure}{0}
+%\setcounter{section}{\c@IndAppendix}
+%\renewcommand{\thesection}{\Asbuk{section}}
+\renewcommand{\thefigure}{\Asbuk{IndAppendix}.\arabic{figure}}
+\renewcommand{\thetable}{\Asbuk{IndAppendix}.\arabic{table}}
+}
+
+%Python в Latex:
+\newcommand{\python}[1]{%
+\immediate\write18{python #1 > ./py.out 2> ./py.err}
+\immediate\input"py.out"}
+
+\AtEndDocument{
+\label{reftotalpages}
+{\addtocounter{totalfigure}{\c@table}
+\addtocounter{totalfigure}{-1}
+\refstepcounter{totalfigure}\label{reftotalfigures}}
+{\addtocounter{totaltable}{\c@figure}
+\addtocounter{totaltable}{-1}
+\refstepcounter{totaltable}\label{reftotaltables}}
+\addtocounter{totalappendix}{\c@IndAppendix}\label{reftotalappendix}
+}
